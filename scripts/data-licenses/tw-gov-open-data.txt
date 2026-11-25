@@ -1,0 +1,14 @@
+臺灣國定假日資料（Taiwan public holiday data）
+
+資料來源：行政院人事行政總處「中華民國政府行政機關辦公日曆表」
+政府資料開放平台 https://data.gov.tw/dataset/14718
+授權：政府資料開放授權條款－第 1 版（Open Government Data License, version 1.0）
+https://data.gov.tw/license
+
+依授權條款標示：本 App 內建的臺灣假日資料引用自行政院人事行政總處「中華民國政府行政機關辦公日曆表」，
+經 ruyut/TaiwanCalendar（https://github.com/ruyut/TaiwanCalendar）轉為 UTF-8 JSON 後，
+由本 App 的 scripts/generate-holidays.mjs 擷取放假日、補假與補行上班日。
+
+Attribution: Taiwan holiday data is derived from the "Government Office Calendar" published by the
+Directorate-General of Personnel Administration, Executive Yuan, via the Government Open Data Platform,
+used under the Open Government Data License, version 1.0.

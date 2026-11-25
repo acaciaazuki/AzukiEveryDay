@@ -1,0 +1,99 @@
+@import 'tailwindcss';
+
+/* ACACIA 色票：暖米白底、莫蘭迪綠為主色（白字對比度 4.7 以上），整體低飽和、安靜 */
+@theme {
+  --font-sans: 'DM Sans', 'Noto Sans TC', 'Noto Sans JP', sans-serif;
+  --color-ink: #2e3a35;
+  --color-muted: #858e89;
+  --color-sage: #527b67;
+  --color-sage-light: #e7efe9;
+  --color-sage-dark: #3f6a56;
+  --color-mint: #dfe8e1;
+  --color-line: #ebe8e1;
+  --color-paper: #ffffff;
+  --color-weekend: #fcf5d7;
+  --color-weekend-hover: #f8eec3;
+  --color-oat: #f6f4ef;
+  /* 今天頁問候橫幅的莫蘭迪灰綠，略深於頁面底色 */
+  --color-moss: #dfe7df;
+  --color-moss-deep: #d3ded5;
+  /* 字體大小：所有文字尺寸都乘上 --fs（小 0.9、標準 1、大 1.15、特大 1.3），版面間距不跟著變 */
+  --text-xs: calc(0.75rem * var(--fs));
+  --text-sm: calc(0.875rem * var(--fs));
+  --text-base: calc(1rem * var(--fs));
+  --text-lg: calc(1.125rem * var(--fs));
+  --text-xl: calc(1.25rem * var(--fs));
+  --text-2xl: calc(1.5rem * var(--fs));
+  --text-3xl: calc(1.875rem * var(--fs));
+  --radius-card: 14px;
+  --radius-control: 10px;
+  --shadow-card: 0 1px 2px #3b3a3008, 0 10px 30px #3b3a300a;
+  --shadow-soft: 0 2px 8px #3b3a300a;
+  /* 相思樹枝條在載入、備份時輕輕擺動 */
+  --animate-sway: sway 2.4s ease-in-out infinite;
+  @keyframes sway {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(-3deg);
+    }
+  }
+}
+
+/* 切換頁面時最上方的載入進度條（app/Layout.tsx 的 PageLoadingBar）：0.15 秒後才出現，來回滑動 */
+@keyframes page-loading-in {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes page-loading {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(300%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-page-loading] > div {
+    width: 100%;
+    animation: none;
+  }
+}
+
+@layer base {
+  :root {
+    --fs: 1;
+  }
+  html,
+  body {
+    background: var(--color-oat);
+    color: var(--color-ink);
+    font-size: calc(14px * var(--fs));
+    /* 手機橫放時不要自動把文字放大，版面維持一致 */
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+  button {
+    cursor: pointer;
+  }
+  [data-art='acacia'] {
+    transform-origin: 6% 92%;
+  }
+}
+
+/*
+ * 手機與平板：iOS Safari 在聚焦字級小於 16px 的輸入框時會自動放大整個畫面。
+ * 所有可輸入的 input／select／textarea 至少 16px；字體大小設成「大／特大」時照樣跟著放大。
+ * 放在 @layer 外面，才能蓋過元件上的 text-sm 等 Tailwind class（核取方塊、顏色等不會觸發縮放，不受影響）。
+ * 自訂下拉（IconSelect）是按鈕不是輸入框，不會觸發縮放，維持原樣式。
+ */
+@media (max-width: 767.98px), (pointer: coarse) {
+  input:not([type='checkbox'], [type='radio'], [type='range'], [type='color'], [type='file'], [type='button'], [type='submit'], [type='reset'], [type='image']),
+  select,
+  textarea {
+    font-size: max(16px, calc(0.875rem * var(--fs))) !important;
+  }
+}

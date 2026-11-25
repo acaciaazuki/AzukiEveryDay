@@ -1,0 +1,18 @@
+# Cloudflare Pages 回應標頭（建置時原樣複製到 dist/）
+# 說明與調整注意事項見 README「部署（Cloudflare Pages）」；src/app/headers.test.ts 會檢查必要的設定還在。
+
+/*
+  # 不讓瀏覽器猜檔案類型
+  X-Content-Type-Options: nosniff
+  # 連到其他網站時只送出網域，不送完整網址
+  Referrer-Policy: strict-origin-when-cross-origin
+  # 不允許被其他網站用 iframe 嵌入（防點擊劫持）
+  X-Frame-Options: DENY
+  # 本服務不使用定位、相機、麥克風等裝置權限，一律關閉
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), interest-cohort=()
+  # Google 登入用彈出視窗，必須允許跟彈出視窗互通（Google 建議的設定）
+  Cross-Origin-Opener-Policy: same-origin-allow-popups
+
+# 打包後的檔案名稱含內容雜湊，內容一改檔名就變，可以長期快取
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
