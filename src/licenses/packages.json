@@ -1,0 +1,3080 @@
+[
+ {
+  "name": "@adobe/css-tools",
+  "version": "4.5.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2012 TJ Holowaychuk <tj@vision-media.ca>\nCopyright (c) 2022 Jean-Philippe Zolesio <holblin@gmail.com>",
+  "repository": "https://github.com/adobe/css-tools",
+  "textId": "dcb2dfa31c"
+ },
+ {
+  "name": "@babel/code-frame",
+  "version": "7.29.7",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/code-frame",
+  "version": "8.0.6",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/compat-data",
+  "version": "8.1.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/core",
+  "version": "8.1.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/generator",
+  "version": "8.1.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/helper-compilation-targets",
+  "version": "8.0.7",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/helper-globals",
+  "version": "8.0.6",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/helper-string-parser",
+  "version": "7.29.15",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/helper-string-parser",
+  "version": "8.1.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/helper-validator-identifier",
+  "version": "7.29.7",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/helper-validator-identifier",
+  "version": "8.0.6",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/helper-validator-option",
+  "version": "8.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/helpers",
+  "version": "8.1.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors\nCopyright (c) 2014-present, Facebook, Inc. (ONLY ./src/helpers/regenerator* files)",
+  "repository": "https://github.com/babel/babel",
+  "textId": "025e6334e5"
+ },
+ {
+  "name": "@babel/parser",
+  "version": "8.1.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)",
+  "repository": "https://github.com/babel/babel",
+  "textId": "a69e7b213a"
+ },
+ {
+  "name": "@babel/runtime",
+  "version": "7.29.15",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/template",
+  "version": "8.1.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/traverse",
+  "version": "8.1.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/types",
+  "version": "7.29.15",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@babel/types",
+  "version": "8.1.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+  "repository": "https://github.com/babel/babel",
+  "textId": "d9d8e8cbcb"
+ },
+ {
+  "name": "@capacitor/cli",
+  "version": "8.6.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017-present Drifty Co.",
+  "repository": "https://github.com/ionic-team/capacitor",
+  "textId": "aae5baa9aa"
+ },
+ {
+  "name": "@capacitor/core",
+  "version": "8.6.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2017-present Drifty Co.",
+  "repository": "https://github.com/ionic-team/capacitor",
+  "textId": "aae5baa9aa"
+ },
+ {
+  "name": "@capacitor/filesystem",
+  "version": "8.1.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2025 Ionic",
+  "repository": "https://github.com/ionic-team/capacitor-filesystem",
+  "textId": "b095754311"
+ },
+ {
+  "name": "@capacitor/ios",
+  "version": "8.6.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2017-present Drifty Co.",
+  "repository": "https://github.com/ionic-team/capacitor",
+  "textId": "aae5baa9aa"
+ },
+ {
+  "name": "@capacitor/preferences",
+  "version": "8.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright 2020-present Ionic",
+  "repository": "https://github.com/ionic-team/capacitor-plugins",
+  "textId": "823eb4573a"
+ },
+ {
+  "name": "@capacitor/synapse",
+  "version": "1.0.4",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2025 Ionic",
+  "textId": "b095754311"
+ },
+ {
+  "name": "@emnapi/core",
+  "version": "1.11.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2021-present Toyobayashi",
+  "repository": "https://github.com/toyobayashi/emnapi",
+  "textId": "3735987d1f"
+ },
+ {
+  "name": "@emnapi/core",
+  "version": "2.0.0-beta.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "textId": "75519d29cd",
+  "textGenerated": true
+ },
+ {
+  "name": "@emnapi/runtime",
+  "version": "1.11.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2021-present Toyobayashi",
+  "repository": "https://github.com/toyobayashi/emnapi",
+  "textId": "3735987d1f"
+ },
+ {
+  "name": "@emnapi/runtime",
+  "version": "2.0.0-beta.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "textId": "a921e55a1e",
+  "textGenerated": true
+ },
+ {
+  "name": "@emnapi/wasi-threads",
+  "version": "1.2.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2021-present Toyobayashi",
+  "repository": "https://github.com/toyobayashi/emnapi",
+  "textId": "3735987d1f"
+ },
+ {
+  "name": "@emnapi/wasi-threads",
+  "version": "2.2.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "textId": "50d05f5b27",
+  "textGenerated": true
+ },
+ {
+  "name": "@exodus/bytes",
+  "version": "1.16.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2024-2025 Exodus Movement",
+  "repository": "https://github.com/ExodusOSS/bytes",
+  "textId": "08451381c1"
+ },
+ {
+  "name": "@hnw/date-tibetan",
+  "version": "1.0.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2025 Yoshio HANAWA",
+  "repository": "https://github.com/hnw/date-tibetan",
+  "textId": "46ea8ebfc2"
+ },
+ {
+  "name": "@hyunbinseo/holidays-kr",
+  "version": "5.2027.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2023 Hyunbin Seo",
+  "repository": "https://github.com/hyunbinseo/holidays-kr",
+  "textId": "bbe95f0890"
+ },
+ {
+  "name": "@ionic/cli-framework-output",
+  "version": "2.2.8",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2019 Drifty Co",
+  "repository": "https://github.com/ionic-team/ionic-cli",
+  "textId": "e150f3f0e5"
+ },
+ {
+  "name": "@ionic/utils-array",
+  "version": "2.1.6",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017 Drifty Co",
+  "repository": "https://github.com/ionic-team/ionic-cli",
+  "textId": "ee883f6fc4"
+ },
+ {
+  "name": "@ionic/utils-fs",
+  "version": "3.1.7",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017 Drifty Co",
+  "repository": "https://github.com/ionic-team/ionic-cli",
+  "textId": "ee883f6fc4"
+ },
+ {
+  "name": "@ionic/utils-object",
+  "version": "2.1.6",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017 Drifty Co",
+  "repository": "https://github.com/ionic-team/ionic-cli",
+  "textId": "ee883f6fc4"
+ },
+ {
+  "name": "@ionic/utils-process",
+  "version": "2.1.12",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017 Drifty Co",
+  "repository": "https://github.com/ionic-team/ionic-cli",
+  "textId": "ee883f6fc4"
+ },
+ {
+  "name": "@ionic/utils-stream",
+  "version": "3.1.7",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017 Drifty Co",
+  "repository": "https://github.com/ionic-team/ionic-cli",
+  "textId": "ee883f6fc4"
+ },
+ {
+  "name": "@ionic/utils-subprocess",
+  "version": "3.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017 Drifty Co",
+  "repository": "https://github.com/ionic-team/ionic-cli",
+  "textId": "ee883f6fc4"
+ },
+ {
+  "name": "@ionic/utils-terminal",
+  "version": "2.3.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017 Drifty Co",
+  "repository": "https://github.com/ionic-team/ionic-cli",
+  "textId": "ee883f6fc4"
+ },
+ {
+  "name": "@isaacs/fs-minipass",
+  "version": "4.0.1",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Isaac Z. Schlueter and Contributors",
+  "repository": "https://github.com/npm/fs-minipass",
+  "textId": "8a920652f2"
+ },
+ {
+  "name": "@isaacs/nonrecursive-glob-match",
+  "version": "1.1.0",
+  "license": "BlueOak-1.0.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "copyright in it.",
+  "textId": "f578f231f0"
+ },
+ {
+  "name": "@jridgewell/gen-mapping",
+  "version": "0.3.13",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2024 Justin Ridgewell <justin@ridgewell.name>",
+  "repository": "https://github.com/jridgewell/sourcemaps",
+  "textId": "d3db6314c1"
+ },
+ {
+  "name": "@jridgewell/gen-mapping",
+  "version": "0.4.0-beta.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2024 Justin Ridgewell <justin@ridgewell.name>",
+  "repository": "https://github.com/jridgewell/sourcemaps",
+  "textId": "d3db6314c1"
+ },
+ {
+  "name": "@jridgewell/remapping",
+  "version": "2.3.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2024 Justin Ridgewell <justin@ridgewell.name>",
+  "repository": "https://github.com/jridgewell/sourcemaps",
+  "textId": "d3db6314c1"
+ },
+ {
+  "name": "@jridgewell/resolve-uri",
+  "version": "3.1.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2019 Justin Ridgewell <jridgewell@google.com>",
+  "repository": "https://github.com/jridgewell/resolve-uri",
+  "textId": "737372d0ce"
+ },
+ {
+  "name": "@jridgewell/sourcemap-codec",
+  "version": "1.6.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2024 Justin Ridgewell <justin@ridgewell.name>",
+  "repository": "https://github.com/jridgewell/sourcemaps",
+  "textId": "d3db6314c1"
+ },
+ {
+  "name": "@jridgewell/trace-mapping",
+  "version": "0.3.31",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2024 Justin Ridgewell <justin@ridgewell.name>",
+  "repository": "https://github.com/jridgewell/sourcemaps",
+  "textId": "d3db6314c1"
+ },
+ {
+  "name": "@napi-rs/wasm-runtime",
+  "version": "1.2.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) LongYinan",
+  "repository": "https://github.com/napi-rs/napi-rs",
+  "textId": "a2294bc5e6",
+  "textGenerated": true
+ },
+ {
+  "name": "@napi-rs/wasm-runtime",
+  "version": "1.2.6",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "textId": "0de57d5573",
+  "textGenerated": true
+ },
+ {
+  "name": "@oxc-project/types",
+  "version": "0.156.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2024-present VoidZero Inc. & Contributors\nCopyright (c) 2023 Boshen",
+  "repository": "https://github.com/oxc-project/oxc",
+  "textId": "9f7730185c"
+ },
+ {
+  "name": "@radix-ui/primitive",
+  "version": "1.2.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-compose-refs",
+  "version": "1.1.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-context",
+  "version": "1.3.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-dialog",
+  "version": "1.3.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-dismissable-layer",
+  "version": "1.2.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-focus-guards",
+  "version": "1.2.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-focus-scope",
+  "version": "1.3.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-id",
+  "version": "1.1.4",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-portal",
+  "version": "1.2.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-presence",
+  "version": "1.1.11",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-primitive",
+  "version": "2.2.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-slot",
+  "version": "1.5.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-use-callback-ref",
+  "version": "1.1.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-use-controllable-state",
+  "version": "1.3.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-use-effect-event",
+  "version": "0.0.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@radix-ui/react-use-layout-effect",
+  "version": "1.1.4",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 WorkOS",
+  "repository": "https://github.com/radix-ui/primitives",
+  "textId": "0702ab9fec"
+ },
+ {
+  "name": "@remix-run/route-pattern",
+  "version": "0.22.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2025 Shopify Inc.",
+  "repository": "https://github.com/remix-run/remix",
+  "textId": "0a939acd8d"
+ },
+ {
+  "name": "@rolldown/plugin-babel",
+  "version": "0.3.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2026-present, rolldown/plugins repository contributors",
+  "repository": "https://github.com/rolldown/plugins",
+  "textId": "08bae30ec2"
+ },
+ {
+  "name": "@rolldown/pluginutils",
+  "version": "1.1.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2026-present, rolldown/plugins repository contributors",
+  "repository": "https://github.com/rolldown/plugins",
+  "textId": "08bae30ec2"
+ },
+ {
+  "name": "@tailwindcss/node",
+  "version": "4.3.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Tailwind Labs, Inc.",
+  "repository": "https://github.com/tailwindlabs/tailwindcss",
+  "textId": "747680549f"
+ },
+ {
+  "name": "@tailwindcss/oxide",
+  "version": "4.3.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Tailwind Labs, Inc.",
+  "repository": "https://github.com/tailwindlabs/tailwindcss",
+  "textId": "747680549f"
+ },
+ {
+  "name": "@tailwindcss/oxide-wasm32-wasi",
+  "version": "4.3.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "repository": "https://github.com/tailwindlabs/tailwindcss",
+  "textId": "751e17e839",
+  "textGenerated": true
+ },
+ {
+  "name": "@tailwindcss/vite",
+  "version": "4.3.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Tailwind Labs, Inc.",
+  "repository": "https://github.com/tailwindlabs/tailwindcss",
+  "textId": "747680549f"
+ },
+ {
+  "name": "@testing-library/dom",
+  "version": "10.4.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017 Kent C. Dodds",
+  "repository": "https://github.com/testing-library/dom-testing-library",
+  "textId": "caba94cf6f"
+ },
+ {
+  "name": "@testing-library/jest-dom",
+  "version": "8.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017 Kent C. Dodds",
+  "repository": "https://github.com/testing-library/jest-dom",
+  "textId": "caba94cf6f"
+ },
+ {
+  "name": "@testing-library/react",
+  "version": "16.3.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017-Present Kent C. Dodds",
+  "repository": "https://github.com/testing-library/react-testing-library",
+  "textId": "7e7a73b2ea"
+ },
+ {
+  "name": "@tybys/wasm-util",
+  "version": "0.10.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) toyobayashi",
+  "repository": "https://github.com/toyobayashi/wasm-util",
+  "textId": "16a6542158",
+  "textGenerated": true
+ },
+ {
+  "name": "@tybys/wasm-util",
+  "version": "0.10.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "textId": "14ca51d5b4",
+  "textGenerated": true
+ },
+ {
+  "name": "@types/aria-query",
+  "version": "5.0.4",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "textId": "2b949ab5a6"
+ },
+ {
+  "name": "@types/chai",
+  "version": "5.2.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "textId": "2b949ab5a6"
+ },
+ {
+  "name": "@types/convert-source-map",
+  "version": "2.0.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "textId": "2b949ab5a6"
+ },
+ {
+  "name": "@types/deep-eql",
+  "version": "4.0.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "textId": "2b949ab5a6"
+ },
+ {
+  "name": "@types/estree",
+  "version": "1.0.10",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "textId": "2b949ab5a6"
+ },
+ {
+  "name": "@types/fs-extra",
+  "version": "8.1.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "textId": "2b949ab5a6"
+ },
+ {
+  "name": "@types/gensync",
+  "version": "1.0.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "textId": "2b949ab5a6"
+ },
+ {
+  "name": "@types/jsesc",
+  "version": "2.5.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "textId": "2b949ab5a6"
+ },
+ {
+  "name": "@types/node",
+  "version": "24.19.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "textId": "2b949ab5a6"
+ },
+ {
+  "name": "@types/react",
+  "version": "19.3.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "textId": "2b949ab5a6"
+ },
+ {
+  "name": "@types/react-dom",
+  "version": "19.3.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "textId": "2b949ab5a6"
+ },
+ {
+  "name": "@types/slice-ansi",
+  "version": "4.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "textId": "2b949ab5a6"
+ },
+ {
+  "name": "@vitejs/plugin-react",
+  "version": "6.3.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2019-present, Yuxi (Evan) You and Vite contributors",
+  "repository": "https://github.com/vitejs/vite-plugin-react",
+  "textId": "f11e5d538f"
+ },
+ {
+  "name": "@vitest/mocker",
+  "version": "5.1.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2021-Present VoidZero Inc. and Vitest contributors",
+  "repository": "https://github.com/vitest-dev/vitest",
+  "textId": "3fdaf49ccf"
+ },
+ {
+  "name": "@vitest/spy",
+  "version": "5.1.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2021-Present VoidZero Inc. and Vitest contributors",
+  "repository": "https://github.com/vitest-dev/vitest",
+  "textId": "3fdaf49ccf"
+ },
+ {
+  "name": "@xmldom/xmldom",
+  "version": "0.9.12",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2019 - present Christopher J. Brody and other contributors, as listed in: https://github.com/xmldom/xmldom/graphs/contributors\nCopyright 2012 - 2017 @jindw <jindw@xidea.org> and other contributors, as listed in: https://github.com/jindw/xmldom/graphs/contributors",
+  "repository": "https://github.com/xmldom/xmldom",
+  "textId": "b014b2fa27"
+ },
+ {
+  "name": "ansi-regex",
+  "version": "5.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/chalk/ansi-regex",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "ansi-styles",
+  "version": "4.3.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/chalk/ansi-styles",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "ansi-styles",
+  "version": "5.2.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/chalk/ansi-styles",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "argparse",
+  "version": "3.0.4",
+  "license": "PSF-2.0",
+  "category": "permissive",
+  "scope": "dev",
+  "repository": "https://github.com/nodeca/argparse",
+  "textId": "ad51965c85"
+ },
+ {
+  "name": "aria-hidden",
+  "version": "1.2.6",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2017 Anton Korzunov",
+  "repository": "https://github.com/theKashey/aria-hidden",
+  "textId": "e097b3b649"
+ },
+ {
+  "name": "aria-query",
+  "version": "5.3.0",
+  "license": "Apache-2.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2020 A11yance",
+  "repository": "https://github.com/A11yance/aria-query",
+  "textId": "cdb406497f"
+ },
+ {
+  "name": "artichokie",
+  "version": "0.4.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2020-present, Yuxi (Evan) You\nCopyright (c) 2023-present, sapphi-red",
+  "repository": "https://github.com/sapphi-red/artichokie",
+  "textId": "9d252fdb5d"
+ },
+ {
+  "name": "assertion-error",
+  "version": "2.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2013 Jake Luer jake@qualiancy.com (http://qualiancy.com)",
+  "textId": "655adc31f8"
+ },
+ {
+  "name": "astral-regex",
+  "version": "2.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Kevin Mårtensson <kevinmartensson@gmail.com> (github.com/kevva)",
+  "repository": "https://github.com/kevva/astral-regex",
+  "textId": "c246f624d3"
+ },
+ {
+  "name": "astronomia",
+  "version": "4.3.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2013 Sonia Keys\nCopyright (c) 2016 Commenthol",
+  "repository": "https://github.com/commenthol/astronomia",
+  "textId": "433d3e326f"
+ },
+ {
+  "name": "at-least-node",
+  "version": "1.0.0",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2020 Ryan Zimmerman <opensrc@ryanzim.com>",
+  "repository": "https://github.com/RyanZim/at-least-node",
+  "textId": "9fc896dd19"
+ },
+ {
+  "name": "babel-plugin-react-compiler",
+  "version": "1.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "repository": "https://github.com/facebook/react",
+  "textId": "0f9b55c420",
+  "textGenerated": true
+ },
+ {
+  "name": "balanced-match",
+  "version": "4.0.4",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "repository": "https://github.com/juliangruber/balanced-match",
+  "textId": "ad80b62532"
+ },
+ {
+  "name": "base64-js",
+  "version": "1.5.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014 Jameson Little",
+  "repository": "https://github.com/beatgammit/base64-js",
+  "textId": "4fc53fa46e"
+ },
+ {
+  "name": "baseline-browser-mapping",
+  "version": "2.11.39",
+  "license": "Apache-2.0",
+  "category": "permissive",
+  "scope": "dev",
+  "repository": "https://github.com/web-platform-dx/baseline-browser-mapping",
+  "textId": "26add7f7fb"
+ },
+ {
+  "name": "bcp-47",
+  "version": "2.1.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Titus Wormer <tituswormer@gmail.com>",
+  "repository": "https://github.com/wooorm/bcp-47",
+  "textId": "0600871485"
+ },
+ {
+  "name": "bcp-47-match",
+  "version": "2.0.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2018 Titus Wormer <tituswormer@gmail.com>",
+  "repository": "https://github.com/wooorm/bcp-47-match",
+  "textId": "7e8acb6760"
+ },
+ {
+  "name": "big-integer",
+  "version": "1.6.52",
+  "license": "Unlicense",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Peter Olson",
+  "textId": "8fdadb01c8"
+ },
+ {
+  "name": "bplist-creator",
+  "version": "0.1.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2012 Near Infinity Corporation",
+  "repository": "https://github.com/nearinfinity/node-bplist-creator",
+  "textId": "ccfa515242"
+ },
+ {
+  "name": "bplist-parser",
+  "version": "0.3.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Joe Ferner",
+  "repository": "https://github.com/nearinfinity/node-bplist-parser",
+  "textId": "955d2949bf",
+  "textGenerated": true
+ },
+ {
+  "name": "bplist-parser",
+  "version": "0.3.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Joe Ferner",
+  "repository": "https://github.com/nearinfinity/node-bplist-parser",
+  "textId": "955d2949bf",
+  "textGenerated": true
+ },
+ {
+  "name": "brace-expansion",
+  "version": "5.1.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright Julian Gruber <julian@juliangruber.com>",
+  "repository": "https://github.com/juliangruber/brace-expansion",
+  "textId": "5b4520b22a"
+ },
+ {
+  "name": "browserslist",
+  "version": "4.29.6",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2014 Andrey Sitnik <andrey@sitnik.es> and other contributors",
+  "repository": "https://github.com/browserslist/browserslist",
+  "textId": "da4728b19c"
+ },
+ {
+  "name": "buffer-crc32",
+  "version": "0.2.13",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2013 Brian J. Brennan",
+  "repository": "https://github.com/brianloveswords/buffer-crc32",
+  "textId": "3b10c06e23"
+ },
+ {
+  "name": "caldate",
+  "version": "2.1.0",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2016, commenthol",
+  "repository": "https://github.com/commenthol/caldate",
+  "textId": "a55cc73384"
+ },
+ {
+  "name": "caniuse-lite",
+  "version": "1.0.30001826",
+  "license": "CC-BY-4.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "copyright and certain other rights. Our licenses are\ncopyright--then that use is not regulated by the license. Our",
+  "repository": "https://github.com/browserslist/caniuse-lite",
+  "textId": "549d7775f0"
+ },
+ {
+  "name": "chai",
+  "version": "6.3.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017 Chai.js Assertion Library",
+  "repository": "https://github.com/chaijs/chai",
+  "textId": "0a43881b1b"
+ },
+ {
+  "name": "chownr",
+  "version": "3.0.0",
+  "license": "BlueOak-1.0.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "copyright in it.",
+  "repository": "https://github.com/isaacs/chownr",
+  "textId": "3ff423675d"
+ },
+ {
+  "name": "cmdk",
+  "version": "1.1.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2022 Paco Coursey",
+  "repository": "https://github.com/pacocoursey/cmdk",
+  "textId": "58c5dfc976"
+ },
+ {
+  "name": "color-convert",
+  "version": "2.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>",
+  "repository": "https://github.com/Qix-/color-convert",
+  "textId": "a267e3ec87"
+ },
+ {
+  "name": "color-name",
+  "version": "1.1.4",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2015 Dmitry Ivanov",
+  "repository": "https://github.com/colorjs/color-name",
+  "textId": "b0158b421c"
+ },
+ {
+  "name": "commander",
+  "version": "12.1.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>",
+  "repository": "https://github.com/tj/commander.js",
+  "textId": "35bb77423e"
+ },
+ {
+  "name": "convert-source-map",
+  "version": "2.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2013 Thorsten Lorenz.",
+  "repository": "https://github.com/thlorenz/convert-source-map",
+  "textId": "74d9b6b512"
+ },
+ {
+  "name": "cookie-es",
+  "version": "3.1.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2012-2014 Roman Shtylman <shtylman@gmail.com>\nCopyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>\nCopyright (c) 2015 Nathan Friedly <nathan@nfriedly.com> (http://nfriedly.com/)",
+  "repository": "https://github.com/unjs/cookie-es",
+  "textId": "aa8569d331"
+ },
+ {
+  "name": "cross-spawn",
+  "version": "7.0.6",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2018 Made With MOXY Lda <hello@moxy.studio>",
+  "repository": "https://github.com/moxystudio/node-cross-spawn",
+  "textId": "a7c3446a54"
+ },
+ {
+  "name": "css.escape",
+  "version": "1.5.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright Mathias Bynens <https://mathiasbynens.be/>",
+  "repository": "https://github.com/mathiasbynens/CSS.escape",
+  "textId": "2981a83f8b"
+ },
+ {
+  "name": "csstype",
+  "version": "3.2.4",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017-2018 Fredrik Nicol",
+  "repository": "https://github.com/frenic/csstype",
+  "textId": "028561826e"
+ },
+ {
+  "name": "data-urls",
+  "version": "8.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright © Domenic Denicola <d@domenic.me>",
+  "repository": "https://github.com/jsdom/data-urls",
+  "textId": "c1890f63b3"
+ },
+ {
+  "name": "date-bengali-revised",
+  "version": "2.1.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2018-present commenthol",
+  "repository": "https://github.com/commenthol/date-bengali-revised",
+  "textId": "c845ef9ffe"
+ },
+ {
+  "name": "date-chinese",
+  "version": "2.2.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2016-present commenthol",
+  "repository": "https://github.com/commenthol/date-chinese",
+  "textId": "d4c7e83f99"
+ },
+ {
+  "name": "date-easter",
+  "version": "1.1.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014 commenthol",
+  "repository": "https://github.com/commenthol/date-easter",
+  "textId": "c67b363a1c"
+ },
+ {
+  "name": "date-holidays",
+  "version": "3.39.2",
+  "license": "(ISC AND CC-BY-SA-4.0)",
+  "category": "weak",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2015-present, commenthol",
+  "repository": "https://github.com/commenthol/date-holidays",
+  "textId": "53a9afcf6c"
+ },
+ {
+  "name": "date-holidays-parser",
+  "version": "3.7.0",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2015-present, commenthol",
+  "repository": "https://github.com/commenthol/date-holidays-parser",
+  "textId": "dc25c2251a"
+ },
+ {
+  "name": "debug",
+  "version": "4.4.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>\nCopyright (c) 2018-2021 Josh Junon",
+  "repository": "https://github.com/debug-js/debug",
+  "textId": "8ca66b7877"
+ },
+ {
+  "name": "decimal.js",
+  "version": "10.6.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2025 Michael Mclaughlin",
+  "repository": "https://github.com/MikeMcl/decimal.js",
+  "textId": "0dcb1574c6"
+ },
+ {
+  "name": "deepmerge",
+  "version": "4.3.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2012 James Halliday, Josh Duff, and other contributors",
+  "repository": "https://github.com/TehShrike/deepmerge",
+  "textId": "9edad4e307"
+ },
+ {
+  "name": "define-lazy-prop",
+  "version": "2.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/sindresorhus/define-lazy-prop",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "dequal",
+  "version": "2.0.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)",
+  "repository": "https://github.com/lukeed/dequal",
+  "textId": "ea5b701a7a"
+ },
+ {
+  "name": "detect-libc",
+  "version": "2.1.2",
+  "license": "Apache-2.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Lovell Fuller",
+  "repository": "https://github.com/lovell/detect-libc",
+  "textId": "3d9ca858ae"
+ },
+ {
+  "name": "detect-node-es",
+  "version": "1.1.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2017 Ilya Kantor",
+  "repository": "https://github.com/thekashey/detect-node",
+  "textId": "02ce9e4d7b"
+ },
+ {
+  "name": "dom-accessibility-api",
+  "version": "0.5.16",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2020 Sebastian Silbermann",
+  "repository": "https://github.com/eps1lon/dom-accessibility-api",
+  "textId": "e9248e6178"
+ },
+ {
+  "name": "dom-accessibility-api",
+  "version": "0.6.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2020 Sebastian Silbermann",
+  "repository": "https://github.com/eps1lon/dom-accessibility-api",
+  "textId": "e9248e6178"
+ },
+ {
+  "name": "electron-to-chromium",
+  "version": "1.5.492",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2018 Kilian Valkhof",
+  "repository": "https://github.com/Kilian/electron-to-chromium",
+  "textId": "2772f108d2"
+ },
+ {
+  "name": "elementtree",
+  "version": "0.1.7",
+  "license": "Apache-2.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Rackspace US, Inc.",
+  "repository": "https://github.com/racker/node-elementtree",
+  "textId": "dfc9887d6c"
+ },
+ {
+  "name": "emoji-regex",
+  "version": "8.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright Mathias Bynens <https://mathiasbynens.be/>",
+  "repository": "https://github.com/mathiasbynens/emoji-regex",
+  "textId": "2981a83f8b"
+ },
+ {
+  "name": "empathic",
+  "version": "2.1.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)",
+  "repository": "https://github.com/lukeed/empathic",
+  "textId": "868927c4ec"
+ },
+ {
+  "name": "enhanced-resolve",
+  "version": "5.27.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright JS Foundation and other contributors",
+  "repository": "https://github.com/webpack/enhanced-resolve",
+  "textId": "4f34b3b218"
+ },
+ {
+  "name": "entities",
+  "version": "9.0.0",
+  "license": "BSD-2-Clause",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Felix Böhm",
+  "repository": "https://github.com/fb55/entities",
+  "textId": "ef9230179d"
+ },
+ {
+  "name": "env-paths",
+  "version": "2.2.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/sindresorhus/env-paths",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "es-module-lexer",
+  "version": "2.3.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (C) 2018-2022 Guy Bedford",
+  "repository": "https://github.com/guybedford/es-module-lexer",
+  "textId": "db8479324a"
+ },
+ {
+  "name": "escalade",
+  "version": "3.2.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)",
+  "repository": "https://github.com/lukeed/escalade",
+  "textId": "868927c4ec"
+ },
+ {
+  "name": "estree-walker",
+  "version": "3.0.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2015-20 [these people](https://github.com/Rich-Harris/estree-walker/graphs/contributors)",
+  "repository": "https://github.com/Rich-Harris/estree-walker",
+  "textId": "82c359d77c"
+ },
+ {
+  "name": "expect-type",
+  "version": "1.4.0",
+  "license": "Apache-2.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2024 Misha Kaletsky",
+  "repository": "https://github.com/mmkal/expect-type",
+  "textId": "12ee0be24b"
+ },
+ {
+  "name": "fake-indexeddb",
+  "version": "6.2.8",
+  "license": "Apache-2.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2017 Jeremy Scheff",
+  "repository": "https://github.com/dumbmatter/fakeIndexedDB",
+  "textId": "445a0640ad"
+ },
+ {
+  "name": "fd-slicer",
+  "version": "1.1.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014 Andrew Kelley",
+  "repository": "https://github.com/andrewrk/node-fd-slicer",
+  "textId": "c2a9f9f9b6"
+ },
+ {
+  "name": "fdir",
+  "version": "6.5.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2023 Abdullah Atta",
+  "repository": "https://github.com/thecodrr/fdir",
+  "textId": "32e0b5d83d"
+ },
+ {
+  "name": "flru",
+  "version": "1.0.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)",
+  "repository": "https://github.com/lukeed/flru",
+  "textId": "868927c4ec"
+ },
+ {
+  "name": "fs-extra",
+  "version": "11.4.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2011-2024 JP Richardson",
+  "repository": "https://github.com/jprichardson/node-fs-extra",
+  "textId": "a56e3d5b9b"
+ },
+ {
+  "name": "fs-extra",
+  "version": "9.1.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2011-2017 JP Richardson",
+  "repository": "https://github.com/jprichardson/node-fs-extra",
+  "textId": "f42ef1cf05"
+ },
+ {
+  "name": "gensync",
+  "version": "1.0.0-beta.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2018 Logan Smyth <loganfsmyth@gmail.com>",
+  "repository": "https://github.com/loganfsmyth/gensync",
+  "textId": "e6a3c34d86"
+ },
+ {
+  "name": "get-nonce",
+  "version": "1.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2020 Anton Korzunov",
+  "repository": "https://github.com/theKashey/get-nonce",
+  "textId": "be8bb8c902"
+ },
+ {
+  "name": "glob",
+  "version": "14.0.6",
+  "license": "BlueOak-1.0.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "copyright in it.",
+  "textId": "3ff423675d"
+ },
+ {
+  "name": "graceful-fs",
+  "version": "4.2.12",
+  "license": "BlueOak-1.0.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "copyright in it.",
+  "repository": "https://github.com/isaacs/node-graceful-fs",
+  "textId": "f578f231f0"
+ },
+ {
+  "name": "holiday-data: date-holidays (JP, US, HK, SG, GB, CA, AU)",
+  "version": "3.39.2",
+  "license": "CC-BY-SA-4.0",
+  "category": "weak",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2015-present, commenthol; holiday data CC BY-SA 4.0 (Wikipedia contributors)",
+  "repository": "https://github.com/commenthol/date-holidays",
+  "textId": "53a9afcf6c"
+ },
+ {
+  "name": "holiday-data: holiday-cn (CN)",
+  "version": "data",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2019 NateScarlet",
+  "repository": "https://github.com/NateScarlet/holiday-cn",
+  "textId": "66273af119"
+ },
+ {
+  "name": "holiday-data: holidays-kr (KR)",
+  "version": "5.2027.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2023 Hyunbin Seo",
+  "repository": "https://github.com/hyunbinseo/holidays-kr",
+  "textId": "bbe95f0890"
+ },
+ {
+  "name": "holiday-data: Taiwan DGPA office calendar (TW)",
+  "version": "data",
+  "license": "OGDL-Taiwan-1.0",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "行政院人事行政總處（Directorate-General of Personnel Administration, Executive Yuan）",
+  "repository": "https://data.gov.tw/dataset/14718",
+  "textId": "75bf1a3543"
+ },
+ {
+  "name": "html-encoding-sniffer",
+  "version": "7.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright © Domenic Denicola <d@domenic.me>",
+  "repository": "https://github.com/jsdom/html-encoding-sniffer",
+  "textId": "c1890f63b3"
+ },
+ {
+  "name": "html-parse-stringify",
+  "version": "4.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2025 Henrik Joreteg <henrik@joreteg.com>\nCopyright (c) 2026-present i18next (https://github.com/i18next)",
+  "repository": "https://github.com/i18next/html-parse-stringify",
+  "textId": "b31361dd7d"
+ },
+ {
+  "name": "i18next",
+  "version": "27.2.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2011-present i18next",
+  "repository": "https://github.com/i18next/i18next",
+  "textId": "78634f35f3"
+ },
+ {
+  "name": "i18next-browser-languagedetector",
+  "version": "8.3.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2015-present i18next",
+  "repository": "https://github.com/i18next/i18next-browser-languageDetector",
+  "textId": "e316da9e0d"
+ },
+ {
+  "name": "idb-keyval",
+  "version": "6.3.0",
+  "license": "Apache-2.0",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright 2016, Jake Archibald",
+  "repository": "https://github.com/jakearchibald/idb-keyval",
+  "textId": "fd4ea677b9"
+ },
+ {
+  "name": "import-meta-resolve",
+  "version": "4.2.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Titus Wormer <mailto:tituswormer@gmail.com>\nCopyright Node.js contributors. All rights reserved.\nCopyright Joyent, Inc. and other Node contributors. All rights reserved.",
+  "repository": "https://github.com/wooorm/import-meta-resolve",
+  "textId": "74f026862e"
+ },
+ {
+  "name": "indent-string",
+  "version": "4.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/sindresorhus/indent-string",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "inherits",
+  "version": "2.0.4",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Isaac Z. Schlueter",
+  "repository": "https://github.com/isaacs/inherits",
+  "textId": "6816336497"
+ },
+ {
+  "name": "ini",
+  "version": "4.1.3",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Isaac Z. Schlueter and Contributors",
+  "repository": "https://github.com/npm/ini",
+  "textId": "8a920652f2"
+ },
+ {
+  "name": "is-alphabetical",
+  "version": "2.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>",
+  "repository": "https://github.com/wooorm/is-alphabetical",
+  "textId": "105369f6f4"
+ },
+ {
+  "name": "is-alphanumerical",
+  "version": "2.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>",
+  "repository": "https://github.com/wooorm/is-alphanumerical",
+  "textId": "105369f6f4"
+ },
+ {
+  "name": "is-decimal",
+  "version": "2.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>",
+  "repository": "https://github.com/wooorm/is-decimal",
+  "textId": "105369f6f4"
+ },
+ {
+  "name": "is-docker",
+  "version": "2.2.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)",
+  "repository": "https://github.com/sindresorhus/is-docker",
+  "textId": "58d674b05c"
+ },
+ {
+  "name": "is-fullwidth-code-point",
+  "version": "3.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/sindresorhus/is-fullwidth-code-point",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "is-potential-custom-element-name",
+  "version": "1.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright Mathias Bynens <https://mathiasbynens.be/>",
+  "repository": "https://github.com/mathiasbynens/is-potential-custom-element-name",
+  "textId": "2981a83f8b"
+ },
+ {
+  "name": "is-wsl",
+  "version": "2.2.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/sindresorhus/is-wsl",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "isexe",
+  "version": "2.0.0",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Isaac Z. Schlueter and Contributors",
+  "repository": "https://github.com/isaacs/isexe",
+  "textId": "8a920652f2"
+ },
+ {
+  "name": "jalaali-js",
+  "version": "2.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2020 Behrang Norouzinia",
+  "repository": "https://github.com/jalaali/jalaali-js",
+  "textId": "749bc07a72"
+ },
+ {
+  "name": "jiti",
+  "version": "2.7.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Pooya Parsa <pooya@pi0.io>",
+  "repository": "https://github.com/unjs/jiti",
+  "textId": "9d04b3709d"
+ },
+ {
+  "name": "js-tokens",
+  "version": "10.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 Simon Lydell",
+  "repository": "https://github.com/lydell/js-tokens",
+  "textId": "8e7f0d458a"
+ },
+ {
+  "name": "js-tokens",
+  "version": "4.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell",
+  "repository": "https://github.com/lydell/js-tokens",
+  "textId": "7df4be24bb"
+ },
+ {
+  "name": "js-yaml",
+  "version": "5.5.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (C) 2011-2015 by Vitaly Puzrin",
+  "repository": "https://github.com/nodeca/js-yaml",
+  "textId": "4648826518"
+ },
+ {
+  "name": "jsdom",
+  "version": "31.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2010 Elijah Insua\nCopyright (c) Guillaume Lebas\nCopyright (C) 2016-2026 by Roman Dvornov",
+  "repository": "https://github.com/jsdom/jsdom",
+  "textId": "e59e645048"
+ },
+ {
+  "name": "jsesc",
+  "version": "3.1.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright Mathias Bynens <https://mathiasbynens.be/>",
+  "repository": "https://github.com/mathiasbynens/jsesc",
+  "textId": "2981a83f8b"
+ },
+ {
+  "name": "json5",
+  "version": "2.2.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2012-2018 Aseem Kishore, and [others].",
+  "repository": "https://github.com/json5/json5",
+  "textId": "d447d9aa29"
+ },
+ {
+  "name": "jsonfile",
+  "version": "6.2.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2012-2015, JP Richardson <jprichardson@gmail.com>",
+  "textId": "f436fc8441"
+ },
+ {
+  "name": "kleur",
+  "version": "3.0.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)",
+  "repository": "https://github.com/lukeed/kleur",
+  "textId": "ea5b701a7a"
+ },
+ {
+  "name": "kleur",
+  "version": "4.1.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)",
+  "repository": "https://github.com/lukeed/kleur",
+  "textId": "ea5b701a7a"
+ },
+ {
+  "name": "lightningcss",
+  "version": "1.33.0",
+  "license": "MPL-2.0",
+  "category": "weak",
+  "scope": "dev",
+  "repository": "https://github.com/parcel-bundler/lightningcss",
+  "textId": "b6475ce18f"
+ },
+ {
+  "name": "lodash",
+  "version": "4.18.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright OpenJS Foundation and other contributors <https://openjsf.org/>\nCopyright and related rights for sample code are waived via CC0. Sample",
+  "repository": "https://github.com/lodash/lodash",
+  "textId": "028d82c16a"
+ },
+ {
+  "name": "lru-cache",
+  "version": "11.5.3",
+  "license": "BlueOak-1.0.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "copyright in it.",
+  "repository": "https://github.com/isaacs/node-lru-cache",
+  "textId": "f578f231f0"
+ },
+ {
+  "name": "lz-string",
+  "version": "1.5.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2013 pieroxy",
+  "repository": "https://github.com/pieroxy/lz-string",
+  "textId": "743c21e96a"
+ },
+ {
+  "name": "magic-string",
+  "version": "1.4.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2018 Rich Harris",
+  "repository": "https://github.com/Rich-Harris/magic-string",
+  "textId": "ec66631d31"
+ },
+ {
+  "name": "min-indent",
+  "version": "1.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com), James Kyle <me@thejameskyle.com> (thejameskyle.com)",
+  "repository": "https://github.com/thejameskyle/min-indent",
+  "textId": "d2e5797a2f"
+ },
+ {
+  "name": "minimatch",
+  "version": "11.0.9",
+  "license": "BlueOak-1.0.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "copyright in it.",
+  "repository": "https://github.com/isaacs/minimatch",
+  "textId": "a362072c73"
+ },
+ {
+  "name": "minipass",
+  "version": "7.1.3",
+  "license": "BlueOak-1.0.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "copyright in it.",
+  "repository": "https://github.com/isaacs/minipass",
+  "textId": "f578f231f0"
+ },
+ {
+  "name": "minizlib",
+  "version": "3.1.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017-2023 Isaac Z. Schlueter and Contributors\nCopyright (c) 2017-2023 Node.js contributors. All rights reserved.\nCopyright (c) 2017-2023 Joyent, Inc. and other Node contributors. All rights reserved.",
+  "repository": "https://github.com/isaacs/minizlib",
+  "textId": "a37399bdcd"
+ },
+ {
+  "name": "moment",
+  "version": "2.31.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) OpenJS Foundation and other contributors",
+  "repository": "https://github.com/moment/moment",
+  "textId": "b1772487fd"
+ },
+ {
+  "name": "moment-timezone",
+  "version": "0.6.6",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) JS Foundation and other contributors",
+  "repository": "https://github.com/moment/moment-timezone",
+  "textId": "58ef769c4c"
+ },
+ {
+  "name": "ms",
+  "version": "2.1.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2020 Vercel, Inc.",
+  "repository": "https://github.com/vercel/ms",
+  "textId": "f32bc383be"
+ },
+ {
+  "name": "nanoid",
+  "version": "3.3.20",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2017 Andrey Sitnik <andrey@sitnik.ru>",
+  "repository": "https://github.com/ai/nanoid",
+  "textId": "0a20ad535f"
+ },
+ {
+  "name": "native-run",
+  "version": "2.1.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2018 Drifty Co",
+  "repository": "https://github.com/ionic-team/native-run",
+  "textId": "5298567f9b"
+ },
+ {
+  "name": "node-releases",
+  "version": "2.0.65",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017 Sergey Rubanov (https://github.com/chicoxyzzy)",
+  "repository": "https://github.com/chicoxyzzy/node-releases",
+  "textId": "6c97303981"
+ },
+ {
+  "name": "obug",
+  "version": "3.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright © 2025-PRESENT Kevin Deng (https://github.com/sxzz)\nCopyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>\nCopyright (c) 2018-2021 Josh Junon",
+  "repository": "https://github.com/sxzz/obug",
+  "textId": "f5844712ea"
+ },
+ {
+  "name": "open",
+  "version": "8.4.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)",
+  "repository": "https://github.com/sindresorhus/open",
+  "textId": "58d674b05c"
+ },
+ {
+  "name": "oxlint",
+  "version": "1.94.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2024-present VoidZero Inc. & Contributors\nCopyright (c) 2023 Boshen",
+  "repository": "https://github.com/oxc-project/oxc",
+  "textId": "9f7730185c"
+ },
+ {
+  "name": "package-json-from-dist",
+  "version": "1.0.1",
+  "license": "BlueOak-1.0.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "copyright in it.",
+  "repository": "https://github.com/isaacs/package-json-from-dist",
+  "textId": "3ff423675d"
+ },
+ {
+  "name": "parse5",
+  "version": "8.1.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2013-2019 Ivan Nikulin (ifaaan@gmail.com, https://github.com/inikulin)",
+  "repository": "https://github.com/inikulin/parse5",
+  "textId": "4b4fdf427f"
+ },
+ {
+  "name": "parse5-parser-stream",
+  "version": "8.1.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2013-2019 Ivan Nikulin (ifaaan@gmail.com, https://github.com/inikulin)",
+  "repository": "https://github.com/inikulin/parse5",
+  "textId": "4b4fdf427f"
+ },
+ {
+  "name": "path-key",
+  "version": "3.1.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/sindresorhus/path-key",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "path-scurry",
+  "version": "3.0.0",
+  "license": "BlueOak-1.0.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "copyright in it.",
+  "repository": "https://github.com/isaacs/path-scurry",
+  "textId": "f578f231f0"
+ },
+ {
+  "name": "pend",
+  "version": "1.2.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014 Andrew Kelley",
+  "repository": "https://github.com/andrewrk/node-pend",
+  "textId": "6bf2786315"
+ },
+ {
+  "name": "picocolors",
+  "version": "1.1.1",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2021-2024 Oleksii Raspopov, Kostiantyn Denysov, Anton Verinov",
+  "repository": "https://github.com/alexeyraspopov/picocolors",
+  "textId": "45f1905ad9"
+ },
+ {
+  "name": "picomatch",
+  "version": "4.0.7",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017-present, Jon Schlinkert.",
+  "repository": "https://github.com/micromatch/picomatch",
+  "textId": "aa49650902"
+ },
+ {
+  "name": "plist",
+  "version": "3.1.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2010-2017 Nathan Rajlich <nathan@tootallnate.net>",
+  "repository": "https://github.com/TooTallNate/node-plist",
+  "textId": "acbbfe5aef"
+ },
+ {
+  "name": "postcss",
+  "version": "8.5.33",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2013 Andrey Sitnik <andrey@sitnik.es>",
+  "repository": "https://github.com/postcss/postcss",
+  "textId": "13bd5ba625"
+ },
+ {
+  "name": "prepin",
+  "version": "1.0.3",
+  "license": "Unlicense",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) commenthol",
+  "repository": "https://github.com/commenthol/prepin"
+ },
+ {
+  "name": "pretty-format",
+  "version": "27.5.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Facebook, Inc. and its affiliates.",
+  "repository": "https://github.com/facebook/jest",
+  "textId": "f58af3a4b7"
+ },
+ {
+  "name": "prompts",
+  "version": "2.4.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2018 Terkel Gjervig Nielsen",
+  "repository": "https://github.com/terkelg/prompts",
+  "textId": "9e177934ff"
+ },
+ {
+  "name": "punycode",
+  "version": "2.3.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright Mathias Bynens <https://mathiasbynens.be/>",
+  "repository": "https://github.com/mathiasbynens/punycode.js",
+  "textId": "2981a83f8b"
+ },
+ {
+  "name": "react",
+  "version": "19.3.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "repository": "https://github.com/react/react",
+  "textId": "4790b9ca47"
+ },
+ {
+  "name": "react-dom",
+  "version": "19.3.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "repository": "https://github.com/react/react",
+  "textId": "4790b9ca47"
+ },
+ {
+  "name": "react-i18next",
+  "version": "18.0.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2015-present i18next",
+  "repository": "https://github.com/i18next/react-i18next",
+  "textId": "e316da9e0d"
+ },
+ {
+  "name": "react-is",
+  "version": "17.0.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Facebook, Inc. and its affiliates.",
+  "repository": "https://github.com/facebook/react",
+  "textId": "f58af3a4b7"
+ },
+ {
+  "name": "react-remove-scroll",
+  "version": "2.7.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2017 Anton Korzunov",
+  "repository": "https://github.com/theKashey/react-remove-scroll",
+  "textId": "e097b3b649"
+ },
+ {
+  "name": "react-remove-scroll-bar",
+  "version": "2.3.8",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) Anton Korzunov",
+  "repository": "https://github.com/theKashey/react-remove-scroll-bar",
+  "textId": "6d514f002a",
+  "textGenerated": true
+ },
+ {
+  "name": "react-router",
+  "version": "8.5.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) React Training LLC 2015-2019\nCopyright (c) Remix Software Inc. 2020-2021\nCopyright (c) Shopify Inc. 2022-2023",
+  "repository": "https://github.com/remix-run/react-router",
+  "textId": "f8b36cf86e"
+ },
+ {
+  "name": "react-style-singleton",
+  "version": "2.2.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2017 Anton Korzunov",
+  "repository": "https://github.com/theKashey/react-style-singleton",
+  "textId": "e097b3b649"
+ },
+ {
+  "name": "readable-stream",
+  "version": "3.6.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright Node.js contributors. All rights reserved.\nCopyright Joyent, Inc. and other Node contributors. All rights reserved.",
+  "repository": "https://github.com/nodejs/readable-stream",
+  "textId": "f272ad0027"
+ },
+ {
+  "name": "redent",
+  "version": "3.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/sindresorhus/redent",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "rimraf",
+  "version": "6.1.4",
+  "license": "BlueOak-1.0.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "copyright in it.",
+  "textId": "f578f231f0"
+ },
+ {
+  "name": "rolldown",
+  "version": "1.2.19",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2024-present VoidZero Inc. & Contributors",
+  "repository": "https://github.com/rolldown/rolldown",
+  "textId": "10c8712d37"
+ },
+ {
+  "name": "safe-buffer",
+  "version": "5.2.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Feross Aboukhadijeh",
+  "repository": "https://github.com/feross/safe-buffer",
+  "textId": "4017fce943"
+ },
+ {
+  "name": "sax",
+  "version": "1.1.4",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Isaac Z. Schlueter and Contributors\nCopyright Mathias Bynens <https://mathiasbynens.be/>",
+  "repository": "https://github.com/isaacs/sax-js",
+  "textId": "8d273e816b"
+ },
+ {
+  "name": "saxes",
+  "version": "6.0.0",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Louis-Dominique Dubeau",
+  "repository": "https://github.com/lddubeau/saxes",
+  "textId": "2d4863359c",
+  "textGenerated": true
+ },
+ {
+  "name": "scheduler",
+  "version": "0.28.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "repository": "https://github.com/react/react",
+  "textId": "4790b9ca47"
+ },
+ {
+  "name": "semver",
+  "version": "7.8.6",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Isaac Z. Schlueter and Contributors",
+  "repository": "https://github.com/npm/node-semver",
+  "textId": "8a920652f2"
+ },
+ {
+  "name": "shebang-command",
+  "version": "2.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Kevin Mårtensson <kevinmartensson@gmail.com> (github.com/kevva)",
+  "repository": "https://github.com/kevva/shebang-command",
+  "textId": "c246f624d3"
+ },
+ {
+  "name": "shebang-regex",
+  "version": "3.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/sindresorhus/shebang-regex",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "signal-exit",
+  "version": "3.0.7",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2015, Contributors",
+  "repository": "https://github.com/tapjs/signal-exit",
+  "textId": "058ddf2d6b"
+ },
+ {
+  "name": "simple-plist",
+  "version": "1.3.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2013 Joe Wollard",
+  "repository": "https://github.com/wollardj/simple-plist",
+  "textId": "96d43a87d7"
+ },
+ {
+  "name": "sisteransi",
+  "version": "1.0.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2018 Terkel Gjervig Nielsen",
+  "repository": "https://github.com/terkelg/sisteransi",
+  "textId": "9e177934ff"
+ },
+ {
+  "name": "slice-ansi",
+  "version": "4.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) DC <threedeecee@gmail.com>\nCopyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)",
+  "repository": "https://github.com/chalk/slice-ansi",
+  "textId": "249a3f66bb"
+ },
+ {
+  "name": "source-map-js",
+  "version": "1.2.4",
+  "license": "BSD-3-Clause",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2009-2011, Mozilla Foundation and contributors",
+  "repository": "https://github.com/7rulnik/source-map-js",
+  "textId": "7c82eb0336"
+ },
+ {
+  "name": "split2",
+  "version": "4.2.0",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014-2018, Matteo Collina <hello@matteocollina.com>",
+  "repository": "https://github.com/mcollina/split2",
+  "textId": "956c3db084"
+ },
+ {
+  "name": "std-env",
+  "version": "4.3.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Pooya Parsa <pooya@pi0.io>",
+  "repository": "https://github.com/unjs/std-env",
+  "textId": "9d04b3709d"
+ },
+ {
+  "name": "stream-buffers",
+  "version": "2.2.0",
+  "license": "Unlicense",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sam Day",
+  "repository": "https://github.com/samcday/node-stream-buffer"
+ },
+ {
+  "name": "string_decoder",
+  "version": "1.3.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright Node.js contributors. All rights reserved.\nCopyright Joyent, Inc. and other Node contributors. All rights reserved.",
+  "repository": "https://github.com/nodejs/string_decoder",
+  "textId": "f272ad0027"
+ },
+ {
+  "name": "string-width",
+  "version": "4.2.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/sindresorhus/string-width",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "strip-ansi",
+  "version": "6.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/chalk/strip-ansi",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "strip-indent",
+  "version": "3.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/sindresorhus/strip-indent",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "tailwindcss",
+  "version": "4.3.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Tailwind Labs, Inc.",
+  "repository": "https://github.com/tailwindlabs/tailwindcss",
+  "textId": "747680549f"
+ },
+ {
+  "name": "tapable",
+  "version": "2.3.4",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright JS Foundation and other contributors",
+  "repository": "http://github.com/webpack/tapable",
+  "textId": "e07fc9b71f"
+ },
+ {
+  "name": "tar",
+  "version": "7.5.23",
+  "license": "BlueOak-1.0.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "copyright in it.",
+  "repository": "https://github.com/isaacs/node-tar",
+  "textId": "f578f231f0"
+ },
+ {
+  "name": "through2",
+  "version": "4.0.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Rod Vagg",
+  "repository": "https://github.com/rvagg/through2",
+  "textId": "dd2801b927"
+ },
+ {
+  "name": "tinybench",
+  "version": "6.2.4",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2022 Tinylibs",
+  "repository": "https://github.com/tinylibs/tinybench",
+  "textId": "054f544285"
+ },
+ {
+  "name": "tinyexec",
+  "version": "1.3.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2024 Tinylibs",
+  "repository": "https://github.com/tinylibs/tinyexec",
+  "textId": "e97cdd4e14"
+ },
+ {
+  "name": "tinyglobby",
+  "version": "0.2.17",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2024 Madeline Gurriarán",
+  "repository": "https://github.com/SuperchupuDev/tinyglobby",
+  "textId": "db6ed105e6"
+ },
+ {
+  "name": "tldts",
+  "version": "7.5.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017 Thomas Parisot, 2018 Rémi Berson",
+  "repository": "https://github.com/remusao/tldts",
+  "textId": "07ac330417"
+ },
+ {
+  "name": "tldts-core",
+  "version": "7.5.5",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017 Thomas Parisot, 2018 Rémi Berson",
+  "repository": "https://github.com/remusao/tldts",
+  "textId": "07ac330417"
+ },
+ {
+  "name": "tough-cookie",
+  "version": "6.1.0",
+  "license": "BSD-3-Clause",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2015, Salesforce.com, Inc.",
+  "repository": "https://github.com/salesforce/tough-cookie",
+  "textId": "640c2d12cc"
+ },
+ {
+  "name": "tr46",
+  "version": "7.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sebastian Mayr",
+  "repository": "https://github.com/jsdom/tr46",
+  "textId": "ee6ed7909a"
+ },
+ {
+  "name": "tree-kill",
+  "version": "1.2.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2018 Peter Krumins",
+  "repository": "https://github.com/pkrumins/node-tree-kill",
+  "textId": "a2a10fba04"
+ },
+ {
+  "name": "tslib",
+  "version": "2.8.1",
+  "license": "0BSD",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/Microsoft/tslib",
+  "textId": "765c412c12"
+ },
+ {
+  "name": "tslib",
+  "version": "2.9.1",
+  "license": "0BSD",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) Microsoft Corporation.",
+  "repository": "https://github.com/Microsoft/tslib",
+  "textId": "765c412c12"
+ },
+ {
+  "name": "typescript",
+  "version": "7.0.2",
+  "license": "Apache-2.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Microsoft Corp.",
+  "repository": "https://github.com/microsoft/TypeScript",
+  "textId": "f97c00445d"
+ },
+ {
+  "name": "undici",
+  "version": "8.13.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Matteo Collina and Undici contributors",
+  "repository": "https://github.com/nodejs/undici",
+  "textId": "8382f653b0"
+ },
+ {
+  "name": "undici-types",
+  "version": "7.24.6",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Matteo Collina and Undici contributors",
+  "repository": "https://github.com/nodejs/undici",
+  "textId": "8382f653b0"
+ },
+ {
+  "name": "universalify",
+  "version": "2.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2017, Ryan Zimmerman <opensrc@ryanzim.com>",
+  "repository": "https://github.com/RyanZim/universalify",
+  "textId": "7019805c7d"
+ },
+ {
+  "name": "untildify",
+  "version": "4.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": "https://github.com/sindresorhus/untildify",
+  "textId": "52d8ac3fda"
+ },
+ {
+  "name": "update-browserslist-db",
+  "version": "1.4.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2022 Andrey Sitnik <andrey@sitnik.es> and other contributors",
+  "repository": "https://github.com/browserslist/update-db",
+  "textId": "0b0f3ae1b7"
+ },
+ {
+  "name": "use-callback-ref",
+  "version": "1.3.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2017 Anton Korzunov",
+  "repository": "https://github.com/theKashey/use-callback-ref/",
+  "textId": "e097b3b649"
+ },
+ {
+  "name": "use-sidecar",
+  "version": "1.1.3",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2017 Anton Korzunov",
+  "repository": "https://github.com/theKashey/use-sidecar",
+  "textId": "e097b3b649"
+ },
+ {
+  "name": "util-deprecate",
+  "version": "1.0.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014 Nathan Rajlich <nathan@tootallnate.net>",
+  "repository": "https://github.com/TooTallNate/util-deprecate",
+  "textId": "33d75b2f0b"
+ },
+ {
+  "name": "verkit",
+  "version": "0.5.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright © 2026-PRESENT Kevin Deng (https://github.com/sxzz)",
+  "repository": "https://github.com/sxzz/verkit",
+  "textId": "e28b4f4694"
+ },
+ {
+  "name": "vite",
+  "version": "8.3.8",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2019-present, VoidZero Inc. and Vite contributors",
+  "repository": "https://github.com/vitejs/vite",
+  "textId": "5ac135f9e4"
+ },
+ {
+  "name": "vitest",
+  "version": "5.1.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2021-Present VoidZero Inc. and Vitest contributors",
+  "repository": "https://github.com/vitest-dev/vitest",
+  "textId": "48bfc51b43"
+ },
+ {
+  "name": "w3c-xmlserializer",
+  "version": "6.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright © Sebastian Mayr",
+  "repository": "https://github.com/jsdom/w3c-xmlserializer",
+  "textId": "c3d6ed0e7f"
+ },
+ {
+  "name": "webidl-conversions",
+  "version": "8.0.1",
+  "license": "BSD-2-Clause",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014, Domenic Denicola",
+  "repository": "https://github.com/jsdom/webidl-conversions",
+  "textId": "a47b05fd63"
+ },
+ {
+  "name": "whatwg-mimetype",
+  "version": "5.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright © Domenic Denicola <d@domenic.me>",
+  "repository": "https://github.com/jsdom/whatwg-mimetype",
+  "textId": "c1890f63b3"
+ },
+ {
+  "name": "whatwg-url",
+  "version": "17.3.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sebastian Mayr",
+  "repository": "https://github.com/jsdom/whatwg-url",
+  "textId": "f27a6ce67e"
+ },
+ {
+  "name": "which",
+  "version": "2.0.2",
+  "license": "ISC",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Isaac Z. Schlueter and Contributors",
+  "repository": "https://github.com/isaacs/node-which",
+  "textId": "8a920652f2"
+ },
+ {
+  "name": "why-is-node-running",
+  "version": "3.2.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2016 Mathias Buus",
+  "repository": "https://github.com/mafintosh/why-is-node-running",
+  "textId": "c602f509ba"
+ },
+ {
+  "name": "wrap-ansi",
+  "version": "7.0.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)",
+  "repository": "https://github.com/chalk/wrap-ansi",
+  "textId": "58d674b05c"
+ },
+ {
+  "name": "xcode",
+  "version": "4.0.0",
+  "license": "Apache-2.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Apache Software Foundation",
+  "repository": "https://github.com/apache/cordova-node-xcode",
+  "textId": "b8db2058cf"
+ },
+ {
+  "name": "xml-name-validator",
+  "version": "5.0.0",
+  "license": "Apache-2.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) Domenic Denicola",
+  "repository": "https://github.com/jsdom/xml-name-validator",
+  "textId": "cd0c07e064"
+ },
+ {
+  "name": "xml2js",
+  "version": "0.6.2",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright 2010, 2011, 2012, 2013. All rights reserved.",
+  "repository": "https://github.com/Leonidas-from-XIV/node-xml2js",
+  "textId": "065f0fc80f"
+ },
+ {
+  "name": "xmlbuilder",
+  "version": "11.0.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2013 Ozgur Ozcitak",
+  "repository": "https://github.com/oozcitak/xmlbuilder-js",
+  "textId": "d46c4dd3b9"
+ },
+ {
+  "name": "xmlbuilder",
+  "version": "15.1.1",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2013 Ozgur Ozcitak",
+  "repository": "https://github.com/oozcitak/xmlbuilder-js",
+  "textId": "d46c4dd3b9"
+ },
+ {
+  "name": "xmlchars",
+  "version": "2.2.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright Louis-Dominique Dubeau and contributors to xmlchars",
+  "repository": "https://github.com/lddubeau/xmlchars",
+  "textId": "32fa736e84"
+ },
+ {
+  "name": "yallist",
+  "version": "5.0.0",
+  "license": "BlueOak-1.0.0",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "copyright in it.",
+  "repository": "https://github.com/isaacs/yallist",
+  "textId": "3ff423675d"
+ },
+ {
+  "name": "yauzl",
+  "version": "2.10.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "dev",
+  "copyright": "Copyright (c) 2014 Josh Wolfe",
+  "repository": "https://github.com/thejoshwolfe/yauzl",
+  "textId": "8bc0cb896c"
+ },
+ {
+  "name": "zod",
+  "version": "4.6.7",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2025 Colin McDonnell",
+  "repository": "https://github.com/colinhacks/zod",
+  "textId": "82f5011509"
+ },
+ {
+  "name": "zustand",
+  "version": "5.1.0",
+  "license": "MIT",
+  "category": "permissive",
+  "scope": "runtime",
+  "copyright": "Copyright (c) 2019 Paul Henschel",
+  "repository": "https://github.com/pmndrs/zustand",
+  "textId": "6a7e335409"
+ }
+]
