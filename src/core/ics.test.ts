@@ -85,6 +85,11 @@ describe('匯出個人行事曆 .ics', () => {
     expect(prop(vevents(ics)[0], 'SUMMARY')).toBe(line)
   })
 
+  it('UID 使用正式網域 azukieveryday.pages.dev', () => {
+    const [a] = vevents(exportPersonalCalendarToIcs({ a: ev('a') }, { nowIso: NOW }))
+    expect(prop(a, 'UID')).toBe('UID:personal_a@azukieveryday.pages.dev')
+  })
+
   it('檔名去掉不合法字元', () => {
     expect(buildSafeIcsFileName('家庭/行程: 2026?', '2026-11-25')).toBe('家庭_行程__2026__2026-11-25.ics')
     expect(buildSafeIcsFileName('   ', '2026-11-25')).toBe('acacia_calendar_2026-11-25.ics')

@@ -48,7 +48,7 @@ describe('使用條款同意面板', () => {
     expect(screen.queryByText('今天頁內容')).not.toBeInTheDocument()
     // 預設先看隱私權政策
     expect(screen.getByRole('tab', { name: '隱私權政策' })).toHaveAttribute('aria-selected', 'true')
-    expect(screen.getByText('重點摘要')).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: '1. 核心原則與無伺服器架構' })).toBeInTheDocument()
     fireEvent.click(screen.getByRole('tab', { name: '第三方授權清單' }))
     expect(screen.getByRole('searchbox')).toBeInTheDocument()
     // 版本與「只存在本機」的說明
@@ -69,7 +69,7 @@ describe('使用條款同意面板', () => {
     expect(useConsentStore.getState().status).toBe('required')
     fireEvent.click(screen.getByRole('button', { name: '回去閱讀' }))
     expect(screen.queryByRole('alert')).not.toBeInTheDocument()
-    expect(screen.getByText('重點摘要')).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: '1. 核心原則與無伺服器架構' })).toBeInTheDocument()
   })
 
   it('同意後進入 App，並記錄目前版本', async () => {
@@ -106,7 +106,7 @@ describe('使用條款同意面板', () => {
     const router = renderApp('/privacy')
     await screen.findByRole('dialog')
     expect(screen.getByRole('tab', { name: '隱私權政策' })).toHaveAttribute('aria-selected', 'true')
-    expect(screen.getByText('重點摘要')).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: '1. 核心原則與無伺服器架構' })).toBeInTheDocument()
     fireEvent.click(screen.getByRole('button', { name: '同意並開始使用' }))
     expect(await screen.findByText('今天頁內容')).toBeInTheDocument()
     expect(router.state.location.pathname).toBe('/')

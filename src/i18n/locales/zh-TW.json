@@ -273,7 +273,8 @@
   },
   "privacy": {
     "close": "關閉",
-    "link": "隱私權政策"
+    "link": "隱私權政策",
+    "toc": "目錄"
   },
   "search": {
     "button": "搜尋行程與記帳",

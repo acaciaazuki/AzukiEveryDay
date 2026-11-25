@@ -1,6 +1,7 @@
 import type { z } from 'zod'
 import { SPACE_FILE_PREFIX } from '../core/defaults'
 import { sameContent } from '../core/syncMeta'
+import { CLIENT_ID } from './googleAuth'
 
 /**
  * Google Drive 同步轉接層（只用 drive.file 權限）。
@@ -268,6 +269,17 @@ function loadPicker(): Promise<PickerNamespace> {
   return pickerPromise
 }
 
+/**
+ * Google Picker 的 appId（Google Cloud 專案編號）：優先用 VITE_GOOGLE_APP_ID；
+ * 漏設時從 OAuth 用戶端 ID 的開頭擷取（格式為「專案編號-xxxx.apps.googleusercontent.com」），降低部署漏設變數的風險。
+ */
+export function resolvePickerAppId(appId: string | undefined, clientId: string | undefined): string | undefined {
+  const explicit = appId?.trim()
+  if (explicit) return explicit
+  const prefix = clientId?.trim().split('-')[0]
+  return prefix && /^\d+$/.test(prefix) ? prefix : undefined
+}
+
 export async function pickSharedSpaceFile(getToken: () => string | null): Promise<PickedSpaceFile | null> {
   const token = getToken()
   if (!token) throw new DriveAuthError('尚未登入 Google', 401)
@@ -280,7 +292,7 @@ export async function pickSharedSpaceFile(getToken: () => string | null): Promis
     view.setIncludeFolders(false)
     let builder = new picker.PickerBuilder().addView(view).setOAuthToken(token)
     const apiKey = import.meta.env.VITE_GOOGLE_API_KEY as string | undefined
-    const appId = import.meta.env.VITE_GOOGLE_APP_ID as string | undefined
+    const appId = resolvePickerAppId(import.meta.env.VITE_GOOGLE_APP_ID as string | undefined, CLIENT_ID)
     if (apiKey) builder = builder.setDeveloperKey(apiKey)
     if (appId) builder = builder.setAppId(appId)
     builder

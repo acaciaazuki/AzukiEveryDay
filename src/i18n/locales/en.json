@@ -273,7 +273,8 @@
   },
   "privacy": {
     "close": "Close",
-    "link": "Privacy policy"
+    "link": "Privacy policy",
+    "toc": "Contents"
   },
   "search": {
     "button": "Search events & ledger",

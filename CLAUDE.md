@@ -12,6 +12,7 @@
 ## 產品定位
 
 - ACACIA Everyday 是「共享行事曆 × 個人記帳本」：個人行事曆、共享空間（多人共用行事曆）、個人記帳本與設定。
+- 正式網址 `https://azukieveryday.pages.dev`，原始碼 `https://github.com/acaciaazuki/AzukiEveryDay`；舊站 `acaciaeveryday.pages.dev` 屬於原專案，不要指向它。程式內需要本站網址時優先用 `window.location.origin` 動態取得。
 - 沒有自己的伺服器。雲端只使用使用者自己的 Google Drive，權限限定 `drive.file`（不可改回 `drive.appdata` 或擴大範圍）：
   - `acacia_data_v2.json`：個人主資料；`acacia_backup_v2.json`：自動備份；`acacia_space_<spaceId>.json`：共享空間（建立者 Drive 中的共用檔）。
 - 記帳紀錄與自訂分類只能存在個人主資料，絕不可寫入共享空間。

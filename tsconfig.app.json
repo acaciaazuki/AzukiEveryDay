@@ -22,5 +22,7 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  // 測試檔另外用 tsconfig.test.json 檢查（需要 Node 型別，例如 node:fs）
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx", "src/test"]
 }
