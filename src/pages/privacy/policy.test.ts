@@ -100,4 +100,16 @@ describe('privacy/policy.ts - 三語結構 100% 對齊與新版隱私邊界驗�
     const contactSection = customDoc.sections.find((s) => s.id === 'contact');
     expect(JSON.stringify(contactSection)).toContain('help@example.org');
   });
+
+  it('6. 三語都寫明 Google API 有限使用聲明、Google Fonts、登入資訊與兒童隱私', () => {
+    for (const loc of officialLocales) {
+      const serialized = JSON.stringify(getPrivacyPolicy(loc));
+      expect(serialized).toContain('https://developers.google.com/terms/api-services-user-data-policy');
+      expect(serialized).toContain('Limited Use');
+      expect(serialized).toContain('fonts.googleapis.com');
+      expect(serialized).toContain('userinfo.profile');
+      expect(serialized).toContain('sessionStorage');
+      expect(serialized).toContain('13');
+    }
+  });
 });

@@ -100,7 +100,7 @@ const POLICY_BUILDERS: Record<
         ],
         bullets: [
           '開發者看不到、無法存取、亦無法代為還原你的任何行程或記帳紀錄。',
-          '未登入 Google 帳號時，本服務完全離線運作，不會向外部發送任何同步請求。',
+          '未登入 Google 帳號時，本服務不會向外部發送任何同步請求；唯一的對外連線是網頁版載入介面字型（見第 4 節）。',
           '本服務不要求定位、聯絡人、相機或麥克風等與核心功能無關的系統權限。',
         ],
       },
@@ -116,6 +116,7 @@ const POLICY_BUILDERS: Record<
           'iOS App 版：個人主資料與快照儲存於應用程式沙盒的 Library/acacia/ 目錄下（不公開於系統「檔案」App，但會隨你的 iPhone 系統設定納入 Apple iCloud 裝置備份）。',
           '個人雲端檔案：登入 Google 後，個人行程、記帳紀錄與個人設定僅同步至你個人 Google Drive 內的 acacia_data_v2.json，以及雲端自動備份檔 acacia_backup_v2.json。',
           '記帳絕對私密：記帳本金額、收支明細、結算週期設定與自訂分類不會以任何形式傳送給共享行事曆的其他成員。',
+          '登入資訊：登入時透過 Google OAuth 取得基本個人資料（userinfo.profile）與 drive.file 權限，不要求你的 Email、通訊錄或其他 Drive 檔案。Google 帳號 ID 與姓名會存進你的資料，用來辨識目前帳號（避免兩個帳號的資料混在一起）與標示共享行程的建立者；大頭貼只用於畫面顯示。存取權杖存在瀏覽器的 sessionStorage，最長約一小時有效，關閉分頁或登出即刪除，登出時一併向 Google 撤銷。',
         ],
       },
       {
@@ -143,7 +144,8 @@ const POLICY_BUILDERS: Record<
           '網站託管（Cloudflare Pages）：網頁版靜態程式碼檔案由 Cloudflare 傳遞，基礎連線過程受 Cloudflare 標準網路安全與隱私政策保護，本服務未啟用任何額外的使用者行為紀錄。',
           'Google 身分驗證與 Google Drive API：僅在你主動點擊登入、同步或選取共享空間檔案時，直接與 Google 官方伺服器連線驗證身分及讀寫授權範圍（drive.file）內的檔案。',
           'Apple iOS 與 iCloud 系統備份：使用 iOS App 時，本機檔案可能依你在裝置開啟的 iCloud 備份設定由 Apple 加密備份，受 Apple 隱私權政策規範。',
-          '字型與靜態資源：介面字型與台灣相思樹圖示等資源僅用於畫面呈現，不附帶跨站追蹤 Cookie。',
+          'Google Fonts（fonts.googleapis.com、fonts.gstatic.com）：網頁版載入介面字型時，你的瀏覽器會直接向 Google 下載字型檔，Google 因此會收到你的 IP 位址與瀏覽器資訊；台灣相思樹圖示等其他靜態資源由本站提供，不附帶跨站追蹤 Cookie。',
+          'Google API 有限使用聲明：本服務使用與傳輸從 Google API 取得的資訊時，遵守 Google API 服務使用者資料政策（https://developers.google.com/terms/api-services-user-data-policy），包括其中的有限使用（Limited Use）要求。從 Google 取得的資料只用於在 App 內提供同步、共享空間與顯示登入帳號的功能，不會用於廣告，也不會轉移給第三方或供人員閱讀。',
         ],
       },
       {
@@ -170,6 +172,7 @@ const POLICY_BUILDERS: Record<
         bullets: [
           '當本政策因功能調整或法規要求而更新時，我們會同步更新本頁頂端的「最後更新日期（PRIVACY_VERSION）」並請你重新確認。',
           '公開網址 /privacy 在同意前後皆可隨時開啟查閱完整條文，且繁中、日文、英文三種語言版本維持一致的章節與保障標準。',
+          '兒童隱私：本服務並非專為未滿 13 歲的兒童設計，我們也不會在知情的情況下收集兒童的個人資料；未成年人使用本服務前，應取得法定代理人的同意。',
         ],
       },
       {
@@ -203,7 +206,7 @@ const POLICY_BUILDERS: Record<
         ],
         bullets: [
           '開発者があなたの予定や家計簿の内容を閲覧・取得・復元することは技術的に不可能です。',
-          'Google アカウントにログインしていない状態では完全にオフラインで動作し、外部への同期通信は一切行われません。',
+          'Google アカウントにログインしていない状態では、外部への同期通信は一切行われません。唯一の外部通信は Web 版でのフォント読み込みです（第 4 節参照）。',
           '位置情報、連絡先、カメラ、マイクなど、本サービスの機能に不要な端末権限を要求することはありません。',
         ],
       },
@@ -219,6 +222,7 @@ const POLICY_BUILDERS: Record<
           'iOS アプリ版：個人データとスナップショットはアプリ専用領域の Library/acacia/ にファイルとして保存されます（「ファイル」アプリには表示されませんが、iPhone の設定に応じて Apple iCloud バックアップの対象となります）。',
           '個人クラウドファイル：Google ログイン時、個人の予定・家計簿・設定はご自身の Google ドライブ内の acacia_data_v2.json およびバックアップ用 acacia_backup_v2.json にのみ同期されます。',
           '家計簿の完全な秘匿性：収支金額、明細、集計サイクル（毎月10日締め等）、カスタムカテゴリが共有カレンダーのメンバーに送信されることは決してありません。',
+          'ログイン情報：ログイン時は Google OAuth を通じて基本プロフィール（userinfo.profile）と drive.file 権限のみを取得し、メールアドレス、連絡先、ドライブ内のその他のファイルは要求しません。Google アカウント ID と名前はログイン中のアカウントの識別（2 つのアカウントのデータ混在防止）と共有予定の作成者表示のためにデータに保存され、プロフィール画像は画面表示にのみ使います。アクセストークンはブラウザの sessionStorage に保存され、有効期間は最長約 1 時間で、タブを閉じるかログアウトすると削除され、ログアウト時には Google 側でも無効化されます。',
         ],
       },
       {
@@ -246,7 +250,8 @@ const POLICY_BUILDERS: Record<
           'ホスティング（Cloudflare Pages）：Web 版の静的ファイル配信に Cloudflare を利用しており、標準的な通信セキュリティ保護が適用されますが、本サービス独自の行動ログ記録は行っていません。',
           'Google 認証および Google Drive API：ユーザーが自らログイン、同期、または共有ファイルの選択を行った際にのみ Google 公式サーバーと直接通信し、許可された範囲（drive.file）のファイルを読み書きします。',
           'Apple iOS および iCloud バックアップ：iOS アプリ利用時、端末側で iCloud バックアップが有効な場合は Apple により暗号化バックアップが行われ、Apple のプライバシーポリシーが適用されます。',
-          'フォントおよび静的アセット：フォントやタイワンソウシジュ（相思樹）のアイコン描画は画面表示のみに使用され、追跡用 Cookie を伴いません。',
+          'Google Fonts（fonts.googleapis.com、fonts.gstatic.com）：Web 版でフォントを読み込む際、ブラウザが Google から直接フォントをダウンロードするため、Google は IP アドレスとブラウザ情報を受け取ります。タイワンソウシジュ（相思樹）のアイコンなどその他の静的アセットは本サイトから配信され、追跡用 Cookie を伴いません。',
+          'Google API の限定使用に関する開示：本サービスが Google API から取得した情報を使用・転送する際は、限定使用（Limited Use）の要件を含む Google API サービスのユーザーデータに関するポリシー（https://developers.google.com/terms/api-services-user-data-policy）を遵守します。Google から取得したデータは、アプリ内で同期、共有スペース、ログイン中のアカウント表示の機能を提供するためにのみ使用し、広告には使用せず、第三者への転送や人による閲覧も行いません。',
         ],
       },
       {
@@ -273,6 +278,7 @@ const POLICY_BUILDERS: Record<
         bullets: [
           '機能変更や法令対応により本ポリシーを改定する場合は、ページ上部の「最終更新日（PRIVACY_VERSION）」を更新し、改めて同意の確認をお願いしております。',
           '公開 URL（/privacy）は同意の前後を問わずいつでも閲覧可能であり、繁体字中国語・日本語・英語の3言語で同一の章構成と保護水準を維持しています。',
+          '子どものプライバシー：本サービスは 13 歳未満の子どもを対象としたものではなく、子どもの個人データを故意に収集することはありません。未成年の方は、法定代理人の同意を得てからご利用ください。',
         ],
       },
       {
@@ -306,7 +312,7 @@ const POLICY_BUILDERS: Record<
         ],
         bullets: [
           'The developer cannot view, access, intercept, or recover any of your calendar events or ledger entries.',
-          'When you are not signed in with Google, the Service runs entirely offline and makes zero background sync requests.',
+          'When you are not signed in with Google, the Service makes zero sync requests; the only outside connection is loading interface fonts on the web app (see Section 4).',
           'The Service never requests geolocation, contacts, camera, microphone, or other permissions unrelated to its core features.',
         ],
       },
@@ -322,6 +328,7 @@ const POLICY_BUILDERS: Record<
           'iOS App: Personal data and snapshots are stored as files inside the app sandbox under Library/acacia/ (hidden from the system Files app, and included in encrypted Apple iCloud device backups if enabled in your iPhone settings).',
           'Personal Cloud Files: When signed in with Google, your personal events, ledger records, and settings sync only to acacia_data_v2.json and acacia_backup_v2.json in your own Google Drive.',
           'Strict Ledger Privacy: Expense/income amounts, notes, custom billing cycle dates (e.g., 10th-to-10th), and custom categories are never transmitted to collaborators in any shared space.',
+          'Sign-In Information: Signing in requests only your basic profile (userinfo.profile) and the drive.file scope through Google OAuth—never your email address, contacts, or other Drive files. Your Google account ID and name are saved in your data to identify the signed-in account (so two accounts’ data never mix) and to label who created shared events; your profile picture is only shown on screen. The access token is kept in the browser’s sessionStorage, valid for about one hour at most, deleted when you close the tab or sign out, and revoked with Google on sign-out.',
         ],
       },
       {
@@ -349,7 +356,8 @@ const POLICY_BUILDERS: Record<
           'Static Hosting (Cloudflare Pages): Web app static assets are delivered via Cloudflare under standard network security protections; no custom user behavioral logging is enabled.',
           'Google Identity & Google Drive API: Contacted directly only when you initiate Google Sign-In, cloud sync, or Google Picker selection to access authorized files under the drive.file scope.',
           'Apple iOS & iCloud Device Backup: On iOS, local sandbox files may be backed up by Apple if iCloud Backup is enabled on your device, governed by Apple’s Privacy Policy.',
-          'Fonts & Static Assets: Interface typography and vector Taiwan Acacia brand icons are used strictly for visual rendering without cross-site tracking cookies.',
+          'Google Fonts (fonts.googleapis.com, fonts.gstatic.com): When the web app loads interface fonts, your browser downloads them directly from Google, so Google receives your IP address and browser information. Other static assets, such as the Taiwan Acacia brand icons, are served by this site without cross-site tracking cookies.',
+          'Google API Limited Use Disclosure: ACACIA’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy (https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. Data from Google is used only to provide sync, shared spaces, and display of the signed-in account inside the app; it is never used for advertising, transferred to third parties, or read by humans.',
         ],
       },
       {
@@ -376,6 +384,7 @@ const POLICY_BUILDERS: Record<
         bullets: [
           'Whenever material updates are made to reflect feature or legal changes, we update the Last Updated date (PRIVACY_VERSION) at the top of this page and prompt for renewed consent.',
           'The public /privacy route remains accessible at all times both before and after consent, maintaining identical section structure and privacy guarantees across Traditional Chinese, Japanese, and English.',
+          'Children’s Privacy: The Service is not designed for children under 13, and we do not knowingly collect personal data from children. Minors should get the consent of a parent or legal guardian before using the Service.',
         ],
       },
       {
