@@ -2,6 +2,10 @@
 
 「你有幾件重要的事，還有足夠的空檔好好呼吸。」
 
+- 正式網址：**https://azukieveryday.pages.dev**
+- 原始碼：https://github.com/acaciaazuki/AzukiEveryDay
+- 舊版 ACACIA Everyday（AcaciaEveryDay 專案）仍在 `acaciaeveryday.pages.dev` 獨立運作，兩邊資料不互通；舊版匯出的 JSON 可以在新版「設定 → 資料」匯入。
+
 ACACIA Everyday 是一個沒有伺服器的生活工具：
 
 - **行事曆**：月檢視與日時間軸，個人行事曆與多個「共享空間」可以疊加顯示。支援單日、跨日、跨午夜行程、批次建立、國定假日、色票與圖示，以及 30 天「最近刪除」。
@@ -149,12 +153,12 @@ src/
 | --- | --- |
 | `VITE_GOOGLE_CLIENT_ID` | OAuth 用戶端 ID（沒設定時使用程式內建的 ID） |
 | `VITE_GOOGLE_API_KEY` | Google Picker 用的 API 金鑰（加入共享空間需要） |
-| `VITE_GOOGLE_APP_ID` | Google Cloud 專案編號（Picker 用來授權選到的檔案） |
+| `VITE_GOOGLE_APP_ID` | Google Cloud 專案編號（Picker 用來授權選到的檔案；沒設定時自動從 OAuth 用戶端 ID 的開頭擷取） |
 | `VITE_SUPPORT_EMAIL` | 隱私權政策的支援信箱（預設 acacia.qiqi@gmail.com） |
 
 - OAuth 同意畫面只需要 `drive.file` 與 `userinfo.profile` 兩個範圍
 - 在 Google Cloud Console 啟用 Google Drive API 與 Google Picker API，API 金鑰限制在正式網址的 HTTP referrer
-- 「已授權的 JavaScript 來源」加入正式網址（不含結尾斜線）；PR 預覽網址每次不同，預覽站無法登入屬正常現象
+- 「已授權的 JavaScript 來源」加入正式網址 `https://azukieveryday.pages.dev`（不含結尾斜線），API 金鑰的 HTTP referrer 限制也加上同一網址；PR 預覽網址每次不同，預覽站無法登入屬正常現象
 
 ## iOS App（Capacitor）
 

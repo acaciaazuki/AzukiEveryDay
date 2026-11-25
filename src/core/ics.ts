@@ -115,7 +115,7 @@ function addOneHour(dateStr: string, timeStr: string): { endDate: string; endTim
 
 function sanitizeUid(rawUid: string): string {
   const safe = rawUid.replace(/[^a-zA-Z0-9._-]/g, '_')
-  return `${safe}@acaciaeveryday.pages.dev`
+  return `${safe}@azukieveryday.pages.dev`
 }
 
 function buildVEventLines(item: NormalizedVEventInput, dtstamp: string, timeZone?: string): string[] {

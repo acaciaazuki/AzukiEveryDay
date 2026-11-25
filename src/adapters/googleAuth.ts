@@ -3,7 +3,8 @@
  * iOS（Capacitor）不允許在 WebView 內做 Google OAuth，之後會換成原生登入外掛，
  * 只要提供同樣的 signIn / signOut / restore 介面即可。
  */
-const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID ?? '204399136099-jruoq7f7671gb2q56kvhflpkq69ertve.apps.googleusercontent.com'
+/** OAuth 用戶端 ID（沒設定 VITE_GOOGLE_CLIENT_ID 時使用內建的 ID） */
+export const CLIENT_ID: string = import.meta.env.VITE_GOOGLE_CLIENT_ID ?? '204399136099-jruoq7f7671gb2q56kvhflpkq69ertve.apps.googleusercontent.com'
 /**
  * 只使用 drive.file：只能存取本 App 建立、或使用者透過 Google Picker 選取的檔案。
  * 不使用 drive.appdata／appDataFolder（共享空間要跨帳號共用檔案，appDataFolder 無法分享，混用會出現 403 ACCESS_TOKEN_SCOPE_INSUFFICIENT）。
