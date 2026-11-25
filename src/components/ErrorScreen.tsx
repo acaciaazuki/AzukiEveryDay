@@ -2,8 +2,11 @@ import { Component, type ErrorInfo, type ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import { isRouteErrorResponse, useRouteError } from 'react-router'
 import { backupFileName, downloadJson } from '../adapters/downloadJson'
-import { CONTACT_EMAIL } from '../pages/privacy/policy'
+import { getSupportEmail } from '../pages/privacy/policy'
 import { usePersonalStore } from '../store/usePersonalStore'
+
+/** 支援信箱（可用 VITE_SUPPORT_EMAIL 覆寫） */
+const SUPPORT_EMAIL = getSupportEmail()
 
 const btn = 'rounded-(--radius-control) px-4 py-2.5 text-[length:calc(14px*var(--fs))] font-bold'
 
@@ -46,8 +49,8 @@ export function ErrorScreen({ error }: { error: unknown }) {
         </details>
         <p className="mt-4 text-xs text-muted">
           {t('errorScreen.contact')}{' '}
-          <a href={`mailto:${CONTACT_EMAIL}`} className="text-sage-dark underline">
-            {CONTACT_EMAIL}
+          <a href={`mailto:${SUPPORT_EMAIL}`} className="text-sage-dark underline">
+            {SUPPORT_EMAIL}
           </a>
         </p>
       </div>

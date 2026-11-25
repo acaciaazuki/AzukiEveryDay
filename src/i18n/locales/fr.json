@@ -273,7 +273,8 @@
   },
   "privacy": {
     "close": "Fermer",
-    "link": "Politique de confidentialité"
+    "link": "Politique de confidentialité",
+    "toc": "Sommaire"
   },
   "search": {
     "button": "Rechercher",

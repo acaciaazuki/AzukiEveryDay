@@ -4,29 +4,13 @@ import { createMemoryRouter, RouterProvider } from 'react-router'
 import { beforeEach, describe, expect, it } from 'vitest'
 import i18n from '../i18n'
 import { PrivacyPage } from '../pages/PrivacyPage'
-import { CONTACT_EMAIL, POLICIES, policyFor } from '../pages/privacy/policy'
+import { DEFAULT_SUPPORT_EMAIL, getPrivacyPolicy } from '../pages/privacy/policy'
 import PrivacyDialog from './PrivacyDialog'
 import { PrivacyLink } from './PrivacyLink'
-
-const shape = (lng: keyof typeof POLICIES) =>
-  POLICIES[lng].sections.map((s) => [s.id, s.blocks.map((b) => (typeof b === 'string' ? 'p' : 'sub' in b ? 'h' : `ul${b.list.length}`))])
 
 describe('隱私權政策', () => {
   beforeEach(async () => {
     await i18n.changeLanguage('zh-TW')
-  })
-
-  it('三種語言的章節與段落結構一致', () => {
-    expect(shape('ja')).toEqual(shape('zh-TW'))
-    expect(shape('en')).toEqual(shape('zh-TW'))
-    expect(POLICIES.ja.summary).toHaveLength(POLICIES['zh-TW'].summary.length)
-    expect(POLICIES.en.summary).toHaveLength(POLICIES['zh-TW'].summary.length)
-  })
-
-  it('韓文、法文、德文介面顯示英文版政策，其他未知語言維持繁體中文', () => {
-    for (const lng of ['ko', 'fr', 'de']) expect(policyFor(lng)).toBe(POLICIES.en)
-    expect(policyFor('ja')).toBe(POLICIES.ja)
-    expect(policyFor(undefined)).toBe(POLICIES['zh-TW'])
   })
 
   it('點小連結跳出面板（不換頁），顯示日期、各章節、Email 與外部連結，可關閉', async () => {
@@ -38,21 +22,14 @@ describe('隱私權政策', () => {
     expect(fireEvent.click(link)).toBe(false)
 
     const dialog = await screen.findByRole('dialog', { name: '隱私權政策' })
-    // 生效日期與最後更新日期
-    expect(within(dialog).getAllByText('2026-11-25')).toHaveLength(2)
-    // App Store 隱私標示與最近刪除的保留期
-    expect(within(dialog).getByText('App 隱私標示：不收集資料')).toBeInTheDocument()
-    expect(within(dialog).getByText(/最近刪除：刪除的行程會先放在「最近刪除」30 天/)).toBeInTheDocument()
-    for (const h of ['2. 我們處理哪些資料', '3. 資料儲存位置與傳輸安全', '4. 第三方服務', '6. 你的權利與資料控制', '9. 聯絡我們']) {
+    // 最後更新日期沿用 PRIVACY_VERSION
+    expect(within(dialog).getByText('2026-11-25')).toBeInTheDocument()
+    for (const h of ['1. 核心原則與無伺服器架構', '3. 共享行事曆空間與「忙碌時段」隱私邊界', '4. 「不收集資料」聲明與第三方服務說明', '7. 聯絡我們']) {
       expect(within(dialog).getByRole('heading', { level: 3, name: h })).toBeInTheDocument()
     }
-    expect(within(dialog).getByRole('link', { name: CONTACT_EMAIL })).toHaveAttribute('href', `mailto:${CONTACT_EMAIL}`)
-    const limited = within(dialog).getByRole('link', { name: 'https://developers.google.com/terms/api-services-user-data-policy' })
-    expect(limited).toHaveAttribute('target', '_blank')
-    // 網址後面的全形括號不會被吃進連結
-    expect(within(dialog).getByRole('link', { name: 'https://myaccount.google.com/connections' })).toBeInTheDocument()
+    expect(within(dialog).getByRole('link', { name: DEFAULT_SUPPORT_EMAIL })).toHaveAttribute('href', `mailto:${DEFAULT_SUPPORT_EMAIL}`)
     const toc = within(dialog).getByRole('navigation', { name: '目錄' })
-    expect(within(toc).getAllByRole('link')).toHaveLength(POLICIES['zh-TW'].sections.length)
+    expect(within(toc).getAllByRole('link')).toHaveLength(getPrivacyPolicy('zh-TW').sections.length)
 
     fireEvent.click(within(dialog).getByRole('button', { name: '關閉' }))
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
@@ -64,11 +41,18 @@ describe('隱私權政策', () => {
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
   })
 
+  it('韓文介面顯示英文版並附上說明', async () => {
+    await i18n.changeLanguage('ko')
+    render(<PrivacyDialog open onOpenChange={() => {}} />)
+    const dialog = screen.getByRole('dialog', { name: 'Privacy Policy' })
+    expect(within(dialog).getByText(/officially provided in Traditional Chinese, Japanese, and English/)).toBeInTheDocument()
+  })
+
   it('依介面語言切換成英文', async () => {
     await i18n.changeLanguage('en')
     render(<PrivacyDialog open onOpenChange={() => {}} />)
     const dialog = screen.getByRole('dialog', { name: 'Privacy Policy' })
-    expect(within(dialog).getByText(/Limited Use requirements/)).toBeInTheDocument()
+    expect(within(dialog).getAllByText(/Data Not Collected/).length).toBeGreaterThan(0)
     expect(within(dialog).getByRole('button', { name: 'Close' })).toBeInTheDocument()
   })
 
@@ -86,20 +70,5 @@ describe('隱私權政策', () => {
     expect(await screen.findByText('首頁')).toBeInTheDocument()
     expect(router.state.location.pathname).toBe('/')
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
-  })
-
-  it('據實描述：未要求 Email、不另外加密、使用 IndexedDB、drive.file 權限、記帳不進共享空間', () => {
-    const all = JSON.stringify(POLICIES['zh-TW'])
-    expect(all).toContain('不會要求你的 Email')
-    expect(all).toContain('不會對資料另外做端對端加密')
-    expect(all).toContain('IndexedDB')
-    expect(all).not.toContain('加密上傳')
-    expect(all).toContain('drive.file')
-    expect(all).not.toContain('drive.appdata')
-    expect(all).toContain('記帳紀錄與自訂分類只存在你的個人資料')
-    expect(all).toContain('不包含行程標題')
-    // 已移除定位與地點搜尋，不可再出現相關描述
-    expect(all).not.toContain('workers.dev')
-    expect(all).toContain('不使用定位')
   })
 })

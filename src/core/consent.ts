@@ -2,15 +2,21 @@ import { z } from 'zod'
 
 /**
  * 使用條款同意：第一次使用、或「隱私權政策／第三方授權清單」改版時，要使用者讀過並同意才能使用。
- *
- * 文件改版時要調整的常數：
- * - 隱私權政策改版：把 PRIVACY_VERSION 改成當天日期。政策頁的「最後更新」（src/pages/privacy/policy.ts 的 UPDATED_DATE）直接沿用它，不用改兩處。
- *   兩者不一致時 npm test 會失敗，避免改了政策卻忘了請使用者重新同意。
- * - 第三方授權清單：套件升級時清單會自動更新，但不會每次都要求重新同意。
- *   有需要使用者重新確認的變動（例如新增授權條件較特別的套件）時，把 LICENSES_VERSION 改成當天日期。
+ */
+
+/**
+ * 隱私權政策版本（YYYY-MM-DD）
+ * 修改儲存、同步、共享機制或資料保留天數時請更新此日期：
+ * 1. 隱私權政策頁面的「最後更新日期（UPDATED_DATE）」會直接沿用此值
+ * 2. ConsentGate 比對本機紀錄版本不同時，會自動要求使用者重新同意
  */
 export const PRIVACY_VERSION = '2026-11-25'
-export const LICENSES_VERSION = '2026-11-22'
+
+/**
+ * 第三方開源授權清單同意版本（YYYY-MM-DD）
+ * 一般套件升級不需修改；僅在隨網站發布的套件出現「全新授權類型」且評估需重新告知時更新
+ */
+export const LICENSES_VERSION = '2026-11-25'
 
 export type ConsentDoc = 'privacy' | 'licenses'
 export const CONSENT_DOCS = ['privacy', 'licenses'] as const satisfies readonly ConsentDoc[]
@@ -35,6 +41,11 @@ export function parseRecord(raw: unknown): ConsentRecord | null {
 /** 哪些文件需要（重新）同意：沒有紀錄或版本不同 */
 export function pendingDocs(record: ConsentRecord | null, current: Record<ConsentDoc, string> = CURRENT_VERSIONS): ConsentDoc[] {
   return CONSENT_DOCS.filter((d) => record?.[d] !== current[d])
+}
+
+/** 本機紀錄是否已同意目前兩份文件的版本（沒有紀錄時為 false） */
+export function isConsentCurrent(record: ConsentRecord | null | undefined, current: Record<ConsentDoc, string> = CURRENT_VERSIONS): boolean {
+  return pendingDocs(record ?? null, current).length === 0
 }
 
 export function makeRecord(now: number, current: Record<ConsentDoc, string> = CURRENT_VERSIONS): ConsentRecord {

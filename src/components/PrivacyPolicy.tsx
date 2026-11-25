@@ -1,17 +1,17 @@
 import { Fragment, type ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Icon } from './AcaciaIcons'
-import { CONTACT_EMAIL, EFFECTIVE_DATE, policyFor, UPDATED_DATE, type PolicyBlock } from '../pages/privacy/policy'
+import { getPrivacyPolicy, getSupportEmail } from '../pages/privacy/policy'
 
-const LINK = /(https:\/\/[^\s）)、，。]+|\{email\})/g
+const EMAIL = getSupportEmail()
+const LINK = new RegExp(`(https://[^\\s）)、，。]+|${EMAIL.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'g')
 
-/** 把段落裡的網址與 {email} 變成連結 */
+/** 把段落裡的網址與支援信箱變成連結 */
 function rich(text: string): ReactNode[] {
   return text.split(LINK).map((part, i) => {
-    if (part === '{email}')
+    if (part === EMAIL)
       return (
-        <a key={i} href={`mailto:${CONTACT_EMAIL}`} className="font-bold text-sage-dark underline underline-offset-2">
-          {CONTACT_EMAIL}
+        <a key={i} href={`mailto:${EMAIL}`} className="font-bold text-sage-dark underline underline-offset-2">
+          {EMAIL}
         </a>
       )
     if (part.startsWith('https://'))
@@ -24,49 +24,23 @@ function rich(text: string): ReactNode[] {
   })
 }
 
-function Block({ block }: { block: PolicyBlock }) {
-  if (typeof block === 'string') return <p className="leading-relaxed">{rich(block)}</p>
-  if ('sub' in block) return <h4 className="mt-2 font-bold text-sage-dark">{block.sub}</h4>
-  return (
-    <ul className="grid list-disc gap-1.5 pl-5 leading-relaxed marker:text-sage">
-      {block.list.map((item, i) => (
-        <li key={i}>{rich(item)}</li>
-      ))}
-    </ul>
-  )
-}
-
-/** 隱私權政策全文：依目前語言顯示繁中、日文或英文（放在 PrivacyDialog 裡） */
+/** 隱私權政策全文：依目前語言顯示繁中、日文或英文（韓、法、德顯示英文版並附說明；放在 PrivacyDialog 裡） */
 export function PrivacyPolicy() {
-  const { i18n } = useTranslation()
-  const doc = policyFor(i18n.resolvedLanguage)
+  const { t, i18n } = useTranslation()
+  const doc = getPrivacyPolicy(i18n.resolvedLanguage ?? 'zh-TW', EMAIL)
 
   return (
     <div className="grid gap-4 text-sm">
-      <p className="text-xs text-muted">{doc.eyebrow}</p>
-      <p className="-mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted">
-        <span>
-          {doc.dates.effective}<time dateTime={EFFECTIVE_DATE}>{EFFECTIVE_DATE}</time>
-        </span>
-        <span>
-          {doc.dates.updated}<time dateTime={UPDATED_DATE}>{UPDATED_DATE}</time>
-        </span>
+      <p className="leading-relaxed text-muted">{doc.subtitle}</p>
+      <p className="-mt-2 text-xs text-muted">
+        {doc.updatedLabel}
+        {doc.locale === 'en' ? ': ' : '：'}
+        <time dateTime={doc.updatedDate}>{doc.updatedDate}</time>
       </p>
+      {doc.fallbackNotice && <p className="rounded-(--radius-control) bg-sage-light/60 px-3 py-2 text-xs leading-relaxed">{doc.fallbackNotice}</p>}
 
-      <section aria-labelledby="privacy-summary-h">
-        <h3 id="privacy-summary-h" className="mb-2 font-bold">{doc.summaryTitle}</h3>
-        <ul className="grid gap-2">
-          {doc.summary.map((s, i) => (
-            <li key={i} className="flex gap-2 rounded-(--radius-control) bg-sage-light/60 px-3 py-2 leading-relaxed">
-              <Icon name="check" className="mt-0.5 shrink-0 text-sage" />
-              <span>{s}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <nav aria-label={doc.toc} className="rounded-(--radius-control) border border-line bg-oat/60 px-4 py-3">
-        <h3 className="mb-2 font-bold">{doc.toc}</h3>
+      <nav aria-label={t('privacy.toc')} className="rounded-(--radius-control) border border-line bg-oat/60 px-4 py-3">
+        <h3 className="mb-2 font-bold">{t('privacy.toc')}</h3>
         <ol className="grid gap-1 text-xs min-[520px]:grid-cols-2">
           {doc.sections.map((s) => (
             <li key={s.id}>
@@ -91,9 +65,18 @@ export function PrivacyPolicy() {
           <h3 id={`${s.id}-h`} className="text-base font-bold">
             {s.heading}
           </h3>
-          {s.blocks.map((b, i) => (
-            <Block key={i} block={b} />
+          {s.paragraphs.map((p, i) => (
+            <p key={i} className="leading-relaxed">
+              {rich(p)}
+            </p>
           ))}
+          {s.bullets && (
+            <ul className="grid list-disc gap-1.5 pl-5 leading-relaxed marker:text-sage">
+              {s.bullets.map((b, i) => (
+                <li key={i}>{rich(b)}</li>
+              ))}
+            </ul>
+          )}
         </section>
       ))}
     </div>

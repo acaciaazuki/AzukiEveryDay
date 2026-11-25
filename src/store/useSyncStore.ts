@@ -319,7 +319,13 @@ export const useSyncStore = create<SyncState>()((set, get) => {
       }
       for (const ref of Object.values(usePersonalStore.getState().data.joinedSpaces)) {
         const space = useSpacesStore.getState().spaces[ref.spaceId]
-        if (space && me && space.ownerUid === me) await driveAdapter().deleteFile(ref.driveFileId)
+        if (space && me && space.ownerUid === me) {
+          await driveAdapter().deleteFile(ref.driveFileId)
+          continue
+        }
+        // 別人建立的空間：先離開並撤除自己的忙碌時段，把撤除結果寫回共享檔
+        usePersonalStore.getState().removeJoinedSpace(ref.spaceId)
+        if (useSpacesStore.getState().dirtySpaceIds.includes(ref.spaceId)) await syncSpace(ref.spaceId, ref.driveFileId)
       }
       set({ personalFileId: null })
     },

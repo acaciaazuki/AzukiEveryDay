@@ -1,0 +1,10 @@
+{
+  // 單元測試的型別檢查：沿用 App 設定，另外加上 Node 型別（測試會讀 public/ 的檔案）
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.test.tsbuildinfo",
+    "types": ["vite/client", "node"]
+  },
+  "include": ["src/**/*.test.ts", "src/**/*.test.tsx", "src/test", "src/**/*.d.ts"],
+  "exclude": []
+}
